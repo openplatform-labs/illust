@@ -1,0 +1,98 @@
+<svg width="496" height="268" viewBox="0 0 496 268" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ai-eval-title ai-eval-description">
+<title id="ai-eval-title">AI evaluation and observability</title>
+<desc id="ai-eval-description">Model quality, latency, drift, safety, and feedback signals are measured against controlled evaluation sets.</desc>
+<defs>
+  <linearGradient id="ai-eval-surface-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF"/><stop offset="0.55" stop-color="#F4F7FB"/><stop offset="1" stop-color="#E0E7EF"/></linearGradient>
+  <linearGradient id="ai-eval-surface-left" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E8EDF3"/><stop offset="1" stop-color="#C6CFD9"/></linearGradient>
+  <linearGradient id="ai-eval-surface-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#DDE4EC"/><stop offset="1" stop-color="#AEB8C4"/></linearGradient>
+  
+  <linearGradient id="ai-eval-blue-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D0E2FF"/><stop offset="0.5" stop-color="#78A9FF"/><stop offset="1" stop-color="#0F62FE"/></linearGradient>
+  <linearGradient id="ai-eval-blue-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#D0E2FF" stop-opacity="0.92"/><stop offset="1" stop-color="#78A9FF" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-eval-blue-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#78A9FF" stop-opacity="0.9"/><stop offset="1" stop-color="#0F62FE" stop-opacity="0.78"/></linearGradient>
+  
+  <linearGradient id="ai-eval-cyan-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D9FBFB"/><stop offset="0.5" stop-color="#3DDBD9"/><stop offset="1" stop-color="#007D79"/></linearGradient>
+  <linearGradient id="ai-eval-cyan-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#D9FBFB" stop-opacity="0.92"/><stop offset="1" stop-color="#3DDBD9" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-eval-cyan-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3DDBD9" stop-opacity="0.9"/><stop offset="1" stop-color="#007D79" stop-opacity="0.78"/></linearGradient>
+  
+  <linearGradient id="ai-eval-purple-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E8DAFF"/><stop offset="0.5" stop-color="#A56EFF"/><stop offset="1" stop-color="#6929C4"/></linearGradient>
+  <linearGradient id="ai-eval-purple-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#E8DAFF" stop-opacity="0.92"/><stop offset="1" stop-color="#A56EFF" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-eval-purple-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#A56EFF" stop-opacity="0.9"/><stop offset="1" stop-color="#6929C4" stop-opacity="0.78"/></linearGradient>
+  
+  <linearGradient id="ai-eval-magenta-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF0F7"/><stop offset="0.5" stop-color="#EE5396"/><stop offset="1" stop-color="#9F1853"/></linearGradient>
+  <linearGradient id="ai-eval-magenta-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#FFF0F7" stop-opacity="0.92"/><stop offset="1" stop-color="#EE5396" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-eval-magenta-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#EE5396" stop-opacity="0.9"/><stop offset="1" stop-color="#9F1853" stop-opacity="0.78"/></linearGradient>
+  
+  <linearGradient id="ai-eval-green-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#DEFBE6"/><stop offset="0.5" stop-color="#42BE65"/><stop offset="1" stop-color="#0E6027"/></linearGradient>
+  <linearGradient id="ai-eval-green-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#DEFBE6" stop-opacity="0.92"/><stop offset="1" stop-color="#42BE65" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-eval-green-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#42BE65" stop-opacity="0.9"/><stop offset="1" stop-color="#0E6027" stop-opacity="0.78"/></linearGradient>
+  
+  <linearGradient id="ai-eval-orange-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF2E8"/><stop offset="0.5" stop-color="#FF832B"/><stop offset="1" stop-color="#8A3800"/></linearGradient>
+  <linearGradient id="ai-eval-orange-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#FFF2E8" stop-opacity="0.92"/><stop offset="1" stop-color="#FF832B" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-eval-orange-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FF832B" stop-opacity="0.9"/><stop offset="1" stop-color="#8A3800" stop-opacity="0.78"/></linearGradient>
+  
+  <linearGradient id="ai-eval-red-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF1F1"/><stop offset="0.5" stop-color="#FA4D56"/><stop offset="1" stop-color="#A2191F"/></linearGradient>
+  <linearGradient id="ai-eval-red-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#FFF1F1" stop-opacity="0.92"/><stop offset="1" stop-color="#FA4D56" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-eval-red-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FA4D56" stop-opacity="0.9"/><stop offset="1" stop-color="#A2191F" stop-opacity="0.78"/></linearGradient>
+  <linearGradient id="ai-eval-glass-blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF" stop-opacity="0.95"/><stop offset="0.5" stop-color="#D0E2FF" stop-opacity="0.76"/><stop offset="1" stop-color="#78A9FF" stop-opacity="0.45"/></linearGradient>
+  <linearGradient id="ai-eval-glass-cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF" stop-opacity="0.95"/><stop offset="0.5" stop-color="#D9FBFB" stop-opacity="0.77"/><stop offset="1" stop-color="#3DDBD9" stop-opacity="0.45"/></linearGradient>
+  <linearGradient id="ai-eval-glass-purple" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF" stop-opacity="0.95"/><stop offset="0.5" stop-color="#E8DAFF" stop-opacity="0.8"/><stop offset="1" stop-color="#A56EFF" stop-opacity="0.44"/></linearGradient>
+  <linearGradient id="ai-eval-network" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0F62FE"/><stop offset="0.48" stop-color="#8A3FFC"/><stop offset="1" stop-color="#08BDBA"/></linearGradient>
+  <radialGradient id="ai-eval-halo" cx="0" cy="0" r="1" gradientTransform="translate(248 135) rotate(90) scale(126 218)" gradientUnits="userSpaceOnUse"><stop stop-color="#E8DAFF" stop-opacity="0.34"/><stop offset="0.56" stop-color="#D9FBFB" stop-opacity="0.13"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+  <filter id="ai-eval-shadow" x="-35%" y="-70%" width="170%" height="240%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="5"/></filter>
+  <filter id="ai-eval-soft-shadow" x="-60%" y="-80%" width="220%" height="260%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="3" stdDeviation="2.5" flood-color="#525252" flood-opacity="0.18"/></filter>
+  <marker id="ai-eval-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0 0L8 4L0 8L2.2 4Z" fill="#0F62FE"/></marker>
+  <marker id="ai-eval-arrow-cyan" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0 0L8 4L0 8L2.2 4Z" fill="#08BDBA"/></marker>
+</defs>
+<rect width="496" height="268" fill="url(#ai-eval-halo)"/>
+
+<g opacity="1">
+  <polygon points="250,188.44 406.98,228 250,267.56 93.02,228" fill="#6F6F6F" opacity="0.15" filter="url(#ai-eval-shadow)"/>
+  <polygon points="83,211 250,257 250,268 83,222" fill="url(#ai-eval-surface-left)"/>
+  <polygon points="250,257 417,211 417,222 250,268" fill="url(#ai-eval-surface-right)"/>
+  <polygon points="250,165 417,211 250,257 83,211" fill="url(#ai-eval-surface-top)" stroke="#DDE4EC" stroke-width="0.7"/>
+</g>
+<g filter="url(#ai-eval-soft-shadow)">
+  <circle cx="250" cy="161" r="27" fill="url(#ai-eval-glass-purple)" stroke="#8A3FFC" stroke-width="1.2"/>
+  <circle cx="250" cy="161" r="20.52" fill="#FFFFFF" fill-opacity="0.72" stroke="#8A3FFC" stroke-opacity="0.65" stroke-width="0.8"/>
+  <path d="M250 161L250 142.64" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="1.21"/>
+  <path d="M250 161L262.98 148.02" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="1.21"/>
+  <path d="M250 161L268.36 161" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="1.21"/>
+  <path d="M250 161L262.98 173.98" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="1.21"/>
+  <path d="M250 161L250 179.36" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="1.21"/>
+  <path d="M250 161L237.02 173.98" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="1.21"/>
+  <path d="M250 161L231.64 161" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="1.21"/>
+  <path d="M250 161L237.02 148.02" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="1.21"/>
+  <circle cx="250" cy="161" r="5.94" fill="#8A3FFC"/><circle cx="250" cy="161" r="2.16" fill="#FFFFFF"/>
+  <circle cx="250" cy="142.64" r="2.43" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="1.21"/>
+  <circle cx="262.98" cy="148.02" r="2.43" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="1.21"/>
+  <circle cx="268.36" cy="161" r="2.43" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="1.21"/>
+  <circle cx="262.98" cy="173.98" r="2.43" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="1.21"/>
+  <circle cx="250" cy="179.36" r="2.43" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="1.21"/>
+  <circle cx="237.02" cy="173.98" r="2.43" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="1.21"/>
+  <circle cx="231.64" cy="161" r="2.43" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="1.21"/>
+  <circle cx="237.02" cy="148.02" r="2.43" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="1.21"/>
+</g>
+<g transform="translate(92 91)"><rect x="-52" y="-35" width="104" height="70" rx="6" fill="url(#ai-eval-glass-cyan)" stroke="#08BDBA" stroke-width="1"/><path d="M-38 18L-23 1L-9 9L7 -15L21 -5L39 -24" stroke="#0F62FE" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><path d="M-38 24H40M-38 -24V24" stroke="#A6C8FF" stroke-width="0.8"/><circle cx="-23" cy="1" r="3" fill="#08BDBA"/><circle cx="7" cy="-15" r="3" fill="#8A3FFC"/><circle cx="39" cy="-24" r="3" fill="#42BE65"/></g>
+<g transform="translate(404 96)"><rect x="-51" y="-40" width="102" height="80" rx="6" fill="url(#ai-eval-glass-blue)" stroke="#0F62FE" stroke-width="1"/><circle cx="-25" cy="-16" r="9" fill="url(#ai-eval-green-top)"/><circle cx="0" cy="-16" r="9" fill="url(#ai-eval-orange-top)"/><circle cx="25" cy="-16" r="9" fill="url(#ai-eval-red-top)"/><path d="M-35 9H29M-35 20H17M-35 31H34" stroke="#78A9FF" stroke-width="2" stroke-linecap="round"/></g>
+<path d="M144 111C177 111 190 135 220 149M352 121C321 121 309 139 279 152" stroke="url(#ai-eval-network)" stroke-width="1.25" marker-end="url(#ai-eval-arrow)"/>
+<g><g opacity="0.9">
+  <polygon points="180.81,205 189,209.68 189,222.16 180.81,217.48" fill="url(#ai-eval-cyan-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="189,209.68 197.19,205 197.19,217.48 189,222.16" fill="url(#ai-eval-cyan-right)" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.55"/>
+  <polygon points="189,200.32 197.19,205 189,209.68 180.81,205" fill="url(#ai-eval-cyan-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g><circle cx="192.77" cy="212.43" r="1.25" fill="#FFFFFF"/><path d="M185.07 214.17L188.67 216.61" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.62"/></g><g><g opacity="0.9">
+  <polygon points="213.81,222 222,226.68 222,239.16 213.81,234.48" fill="url(#ai-eval-blue-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="222,226.68 230.19,222 230.19,234.48 222,239.16" fill="url(#ai-eval-blue-right)" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.55"/>
+  <polygon points="222,217.32 230.19,222 222,226.68 213.81,222" fill="url(#ai-eval-blue-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g><circle cx="225.77" cy="229.43" r="1.25" fill="#FFFFFF"/><path d="M218.07 231.17L221.67 233.61" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.62"/></g><g><g opacity="0.9">
+  <polygon points="269.81,222 278,226.68 278,239.16 269.81,234.48" fill="url(#ai-eval-purple-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="278,226.68 286.19,222 286.19,234.48 278,239.16" fill="url(#ai-eval-purple-right)" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.55"/>
+  <polygon points="278,217.32 286.19,222 278,226.68 269.81,222" fill="url(#ai-eval-purple-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g><circle cx="281.77" cy="229.43" r="1.25" fill="#FFFFFF"/><path d="M274.07 231.17L277.67 233.61" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.62"/></g><g><g opacity="0.9">
+  <polygon points="302.81,205 311,209.68 311,222.16 302.81,217.48" fill="url(#ai-eval-magenta-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="311,209.68 319.19,205 319.19,217.48 311,222.16" fill="url(#ai-eval-magenta-right)" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.55"/>
+  <polygon points="311,200.32 319.19,205 311,209.68 302.81,205" fill="url(#ai-eval-magenta-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g><circle cx="314.77" cy="212.43" r="1.25" fill="#FFFFFF"/><path d="M307.07 214.17L310.67 216.61" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.62"/></g>
+<g transform="translate(250 68)"><path d="M-35 0C-18 -19 18 -19 35 0C18 19 -18 19 -35 0Z" fill="url(#ai-eval-glass-blue)" stroke="#0F62FE" stroke-width="1.1"/><circle cx="0" cy="0" r="11" fill="#FFFFFF" stroke="#08BDBA" stroke-width="1.4"/><circle cx="0" cy="0" r="4.5" fill="#0F62FE"/></g>
+<path d="M250 87V129" stroke="#0F62FE" stroke-width="1" stroke-dasharray="3 4"/>
+
+</svg>

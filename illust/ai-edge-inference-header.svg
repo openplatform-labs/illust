@@ -1,0 +1,120 @@
+<svg width="496" height="268" viewBox="0 0 496 268" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ai-edge-title ai-edge-description">
+<title id="ai-edge-title">Edge AI deployment</title>
+<desc id="ai-edge-description">A centrally managed model is optimized and distributed to edge devices for local low-latency inference.</desc>
+<defs>
+  <linearGradient id="ai-edge-surface-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF"/><stop offset="0.55" stop-color="#F4F7FB"/><stop offset="1" stop-color="#E0E7EF"/></linearGradient>
+  <linearGradient id="ai-edge-surface-left" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E8EDF3"/><stop offset="1" stop-color="#C6CFD9"/></linearGradient>
+  <linearGradient id="ai-edge-surface-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#DDE4EC"/><stop offset="1" stop-color="#AEB8C4"/></linearGradient>
+  
+  <linearGradient id="ai-edge-blue-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D0E2FF"/><stop offset="0.5" stop-color="#78A9FF"/><stop offset="1" stop-color="#0F62FE"/></linearGradient>
+  <linearGradient id="ai-edge-blue-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#D0E2FF" stop-opacity="0.92"/><stop offset="1" stop-color="#78A9FF" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-edge-blue-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#78A9FF" stop-opacity="0.9"/><stop offset="1" stop-color="#0F62FE" stop-opacity="0.78"/></linearGradient>
+  
+  <linearGradient id="ai-edge-cyan-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D9FBFB"/><stop offset="0.5" stop-color="#3DDBD9"/><stop offset="1" stop-color="#007D79"/></linearGradient>
+  <linearGradient id="ai-edge-cyan-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#D9FBFB" stop-opacity="0.92"/><stop offset="1" stop-color="#3DDBD9" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-edge-cyan-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3DDBD9" stop-opacity="0.9"/><stop offset="1" stop-color="#007D79" stop-opacity="0.78"/></linearGradient>
+  
+  <linearGradient id="ai-edge-purple-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E8DAFF"/><stop offset="0.5" stop-color="#A56EFF"/><stop offset="1" stop-color="#6929C4"/></linearGradient>
+  <linearGradient id="ai-edge-purple-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#E8DAFF" stop-opacity="0.92"/><stop offset="1" stop-color="#A56EFF" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-edge-purple-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#A56EFF" stop-opacity="0.9"/><stop offset="1" stop-color="#6929C4" stop-opacity="0.78"/></linearGradient>
+  
+  <linearGradient id="ai-edge-magenta-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF0F7"/><stop offset="0.5" stop-color="#EE5396"/><stop offset="1" stop-color="#9F1853"/></linearGradient>
+  <linearGradient id="ai-edge-magenta-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#FFF0F7" stop-opacity="0.92"/><stop offset="1" stop-color="#EE5396" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-edge-magenta-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#EE5396" stop-opacity="0.9"/><stop offset="1" stop-color="#9F1853" stop-opacity="0.78"/></linearGradient>
+  
+  <linearGradient id="ai-edge-green-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#DEFBE6"/><stop offset="0.5" stop-color="#42BE65"/><stop offset="1" stop-color="#0E6027"/></linearGradient>
+  <linearGradient id="ai-edge-green-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#DEFBE6" stop-opacity="0.92"/><stop offset="1" stop-color="#42BE65" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-edge-green-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#42BE65" stop-opacity="0.9"/><stop offset="1" stop-color="#0E6027" stop-opacity="0.78"/></linearGradient>
+  
+  <linearGradient id="ai-edge-orange-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF2E8"/><stop offset="0.5" stop-color="#FF832B"/><stop offset="1" stop-color="#8A3800"/></linearGradient>
+  <linearGradient id="ai-edge-orange-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#FFF2E8" stop-opacity="0.92"/><stop offset="1" stop-color="#FF832B" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-edge-orange-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FF832B" stop-opacity="0.9"/><stop offset="1" stop-color="#8A3800" stop-opacity="0.78"/></linearGradient>
+  
+  <linearGradient id="ai-edge-red-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF1F1"/><stop offset="0.5" stop-color="#FA4D56"/><stop offset="1" stop-color="#A2191F"/></linearGradient>
+  <linearGradient id="ai-edge-red-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#FFF1F1" stop-opacity="0.92"/><stop offset="1" stop-color="#FA4D56" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-edge-red-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FA4D56" stop-opacity="0.9"/><stop offset="1" stop-color="#A2191F" stop-opacity="0.78"/></linearGradient>
+  <linearGradient id="ai-edge-glass-blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF" stop-opacity="0.95"/><stop offset="0.5" stop-color="#D0E2FF" stop-opacity="0.76"/><stop offset="1" stop-color="#78A9FF" stop-opacity="0.45"/></linearGradient>
+  <linearGradient id="ai-edge-glass-cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF" stop-opacity="0.95"/><stop offset="0.5" stop-color="#D9FBFB" stop-opacity="0.77"/><stop offset="1" stop-color="#3DDBD9" stop-opacity="0.45"/></linearGradient>
+  <linearGradient id="ai-edge-glass-purple" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF" stop-opacity="0.95"/><stop offset="0.5" stop-color="#E8DAFF" stop-opacity="0.8"/><stop offset="1" stop-color="#A56EFF" stop-opacity="0.44"/></linearGradient>
+  <linearGradient id="ai-edge-network" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0F62FE"/><stop offset="0.48" stop-color="#8A3FFC"/><stop offset="1" stop-color="#08BDBA"/></linearGradient>
+  <radialGradient id="ai-edge-halo" cx="0" cy="0" r="1" gradientTransform="translate(248 135) rotate(90) scale(126 218)" gradientUnits="userSpaceOnUse"><stop stop-color="#E8DAFF" stop-opacity="0.34"/><stop offset="0.56" stop-color="#D9FBFB" stop-opacity="0.13"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+  <filter id="ai-edge-shadow" x="-35%" y="-70%" width="170%" height="240%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="5"/></filter>
+  <filter id="ai-edge-soft-shadow" x="-60%" y="-80%" width="220%" height="260%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="3" stdDeviation="2.5" flood-color="#525252" flood-opacity="0.18"/></filter>
+  <marker id="ai-edge-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0 0L8 4L0 8L2.2 4Z" fill="#0F62FE"/></marker>
+  <marker id="ai-edge-arrow-cyan" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0 0L8 4L0 8L2.2 4Z" fill="#08BDBA"/></marker>
+</defs>
+<rect width="496" height="268" fill="url(#ai-edge-halo)"/>
+
+<g transform="translate(248 57)"><circle cx="-24" cy="4" r="22" fill="url(#ai-edge-glass-blue)"/><circle cx="2" cy="-7" r="30" fill="url(#ai-edge-glass-blue)"/><circle cx="30" cy="7" r="20" fill="url(#ai-edge-glass-cyan)"/><ellipse cx="2" cy="18" rx="48" ry="20" fill="url(#ai-edge-glass-blue)"/><g filter="url(#ai-edge-soft-shadow)">
+  <circle cx="2" cy="2" r="21" fill="url(#ai-edge-glass-purple)" stroke="#8A3FFC" stroke-width="1.2"/>
+  <circle cx="2" cy="2" r="15.96" fill="#FFFFFF" fill-opacity="0.72" stroke="#8A3FFC" stroke-opacity="0.65" stroke-width="0.8"/>
+  <path d="M2 2L2 -12.28" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="0.94"/>
+  <path d="M2 2L12.1 -8.1" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="0.94"/>
+  <path d="M2 2L16.28 2" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="0.94"/>
+  <path d="M2 2L12.1 12.1" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="0.94"/>
+  <path d="M2 2L2 16.28" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="0.94"/>
+  <path d="M2 2L-8.1 12.1" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="0.94"/>
+  <path d="M2 2L-12.28 2" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="0.94"/>
+  <path d="M2 2L-8.1 -8.1" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="0.94"/>
+  <circle cx="2" cy="2" r="4.62" fill="#8A3FFC"/><circle cx="2" cy="2" r="1.68" fill="#FFFFFF"/>
+  <circle cx="2" cy="-12.28" r="1.89" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="0.94"/>
+  <circle cx="12.1" cy="-8.1" r="1.89" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="0.94"/>
+  <circle cx="16.28" cy="2" r="1.89" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="0.94"/>
+  <circle cx="12.1" cy="12.1" r="1.89" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="0.94"/>
+  <circle cx="2" cy="16.28" r="1.89" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="0.94"/>
+  <circle cx="-8.1" cy="12.1" r="1.89" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="0.94"/>
+  <circle cx="-12.28" cy="2" r="1.89" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="0.94"/>
+  <circle cx="-8.1" cy="-8.1" r="1.89" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="0.94"/>
+</g></g>
+<path d="M250 84V108M250 108L76 157M250 108L162 177M250 108L250 157M250 108L338 177M250 108L424 157" stroke="url(#ai-edge-network)" stroke-width="1.2" stroke-dasharray="4 4"/>
+<circle cx="250" cy="108" r="3.5" fill="#8A3FFC" stroke="#FFFFFF" stroke-width="1.1"/>
+<g><g opacity="1">
+  <polygon points="76,196.74 109.95,213.38 76,230.02 42.05,213.38" fill="#6F6F6F" opacity="0.15" filter="url(#ai-edge-shadow)"/>
+  <polygon points="39.88,201.36 76,220.71 76,226.73 39.88,207.38" fill="url(#ai-edge-surface-left)"/>
+  <polygon points="76,220.71 112.12,201.36 112.12,207.38 76,226.73" fill="url(#ai-edge-surface-right)"/>
+  <polygon points="76,182.01 112.12,201.36 76,220.71 39.88,201.36" fill="url(#ai-edge-surface-top)" stroke="#DDE4EC" stroke-width="0.7"/>
+</g><g opacity="0.88">
+  <polygon points="59.66,179 76,188.46 76,214.26 59.66,204.8" fill="url(#ai-edge-cyan-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="76,188.46 92.34,179 92.34,204.8 76,214.26" fill="url(#ai-edge-cyan-right)" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.55"/>
+  <polygon points="76,169.54 92.34,179 76,188.46 59.66,179" fill="url(#ai-edge-cyan-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g><circle cx="83.74" cy="198.78" r="1.81" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/></g><g><g opacity="1">
+  <polygon points="162,218.74 195.95,235.38 162,252.02 128.05,235.38" fill="#6F6F6F" opacity="0.15" filter="url(#ai-edge-shadow)"/>
+  <polygon points="125.88,223.36 162,242.71 162,248.73 125.88,229.38" fill="url(#ai-edge-surface-left)"/>
+  <polygon points="162,242.71 198.12,223.36 198.12,229.38 162,248.73" fill="url(#ai-edge-surface-right)"/>
+  <polygon points="162,204.01 198.12,223.36 162,242.71 125.88,223.36" fill="url(#ai-edge-surface-top)" stroke="#DDE4EC" stroke-width="0.7"/>
+</g><g opacity="0.88">
+  <polygon points="145.66,201 162,210.46 162,236.26 145.66,226.8" fill="url(#ai-edge-blue-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="162,210.46 178.34,201 178.34,226.8 162,236.26" fill="url(#ai-edge-blue-right)" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.55"/>
+  <polygon points="162,191.54 178.34,201 162,210.46 145.66,201" fill="url(#ai-edge-blue-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g><circle cx="169.74" cy="220.78" r="1.81" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/></g><g><g opacity="1">
+  <polygon points="250,197.56 286.32,215.36 250,233.16 213.68,215.36" fill="#6F6F6F" opacity="0.15" filter="url(#ai-edge-shadow)"/>
+  <polygon points="211.36,202.92 250,223.62 250,230.06 211.36,209.36" fill="url(#ai-edge-surface-left)"/>
+  <polygon points="250,223.62 288.64,202.92 288.64,209.36 250,230.06" fill="url(#ai-edge-surface-right)"/>
+  <polygon points="250,182.22 288.64,202.92 250,223.62 211.36,202.92" fill="url(#ai-edge-surface-top)" stroke="#DDE4EC" stroke-width="0.7"/>
+</g><g opacity="0.88">
+  <polygon points="232.52,179 250,189.12 250,216.72 232.52,206.6" fill="url(#ai-edge-purple-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="250,189.12 267.48,179 267.48,206.6 250,216.72" fill="url(#ai-edge-purple-right)" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.55"/>
+  <polygon points="250,168.88 267.48,179 250,189.12 232.52,179" fill="url(#ai-edge-purple-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g><circle cx="258.28" cy="200.16" r="1.93" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/></g><g><g opacity="1">
+  <polygon points="338,218.74 371.95,235.38 338,252.02 304.05,235.38" fill="#6F6F6F" opacity="0.15" filter="url(#ai-edge-shadow)"/>
+  <polygon points="301.88,223.36 338,242.71 338,248.73 301.88,229.38" fill="url(#ai-edge-surface-left)"/>
+  <polygon points="338,242.71 374.12,223.36 374.12,229.38 338,248.73" fill="url(#ai-edge-surface-right)"/>
+  <polygon points="338,204.01 374.12,223.36 338,242.71 301.88,223.36" fill="url(#ai-edge-surface-top)" stroke="#DDE4EC" stroke-width="0.7"/>
+</g><g opacity="0.88">
+  <polygon points="321.66,201 338,210.46 338,236.26 321.66,226.8" fill="url(#ai-edge-blue-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="338,210.46 354.34,201 354.34,226.8 338,236.26" fill="url(#ai-edge-blue-right)" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.55"/>
+  <polygon points="338,191.54 354.34,201 338,210.46 321.66,201" fill="url(#ai-edge-blue-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g><circle cx="345.74" cy="220.78" r="1.81" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/></g><g><g opacity="1">
+  <polygon points="424,196.74 457.95,213.38 424,230.02 390.05,213.38" fill="#6F6F6F" opacity="0.15" filter="url(#ai-edge-shadow)"/>
+  <polygon points="387.88,201.36 424,220.71 424,226.73 387.88,207.38" fill="url(#ai-edge-surface-left)"/>
+  <polygon points="424,220.71 460.12,201.36 460.12,207.38 424,226.73" fill="url(#ai-edge-surface-right)"/>
+  <polygon points="424,182.01 460.12,201.36 424,220.71 387.88,201.36" fill="url(#ai-edge-surface-top)" stroke="#DDE4EC" stroke-width="0.7"/>
+</g><g opacity="0.88">
+  <polygon points="407.66,179 424,188.46 424,214.26 407.66,204.8" fill="url(#ai-edge-green-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="424,188.46 440.34,179 440.34,204.8 424,214.26" fill="url(#ai-edge-green-right)" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.55"/>
+  <polygon points="424,169.54 440.34,179 424,188.46 407.66,179" fill="url(#ai-edge-green-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g><circle cx="431.74" cy="198.78" r="1.81" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/></g>
+<circle cx="76" cy="157" r="2.8" fill="#08BDBA" stroke="#FFFFFF" stroke-width="1.1"/><circle cx="162" cy="177" r="2.8" fill="#0F62FE" stroke="#FFFFFF" stroke-width="1.1"/><circle cx="250" cy="157" r="2.8" fill="#8A3FFC" stroke="#FFFFFF" stroke-width="1.1"/><circle cx="338" cy="177" r="2.8" fill="#0F62FE" stroke="#FFFFFF" stroke-width="1.1"/><circle cx="424" cy="157" r="2.8" fill="#42BE65" stroke="#FFFFFF" stroke-width="1.1"/>
+<g opacity="0.84"><path d="M60 191L76 200L92 191M146 213L162 222L178 213M233 191L250 201L267 191M322 213L338 222L354 213M408 191L424 200L440 191" stroke="#FFFFFF" stroke-width="0.9"/><path d="M76 236C150 252 350 252 424 236" stroke="#08BDBA" stroke-opacity="0.55" stroke-width="1"/></g>
+
+</svg>

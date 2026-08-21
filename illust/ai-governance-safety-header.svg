@@ -1,0 +1,105 @@
+<svg width="496" height="268" viewBox="0 0 496 268" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ai-governance-title ai-governance-description">
+<title id="ai-governance-title">AI safety and governance</title>
+<desc id="ai-governance-description">Policy, identity, lineage, privacy, and human approval form guardrails around an AI model and its data.</desc>
+<defs>
+  <linearGradient id="ai-governance-surface-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF"/><stop offset="0.55" stop-color="#F4F7FB"/><stop offset="1" stop-color="#E0E7EF"/></linearGradient>
+  <linearGradient id="ai-governance-surface-left" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E8EDF3"/><stop offset="1" stop-color="#C6CFD9"/></linearGradient>
+  <linearGradient id="ai-governance-surface-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#DDE4EC"/><stop offset="1" stop-color="#AEB8C4"/></linearGradient>
+  
+  <linearGradient id="ai-governance-blue-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D0E2FF"/><stop offset="0.5" stop-color="#78A9FF"/><stop offset="1" stop-color="#0F62FE"/></linearGradient>
+  <linearGradient id="ai-governance-blue-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#D0E2FF" stop-opacity="0.92"/><stop offset="1" stop-color="#78A9FF" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-governance-blue-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#78A9FF" stop-opacity="0.9"/><stop offset="1" stop-color="#0F62FE" stop-opacity="0.78"/></linearGradient>
+  
+  <linearGradient id="ai-governance-cyan-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D9FBFB"/><stop offset="0.5" stop-color="#3DDBD9"/><stop offset="1" stop-color="#007D79"/></linearGradient>
+  <linearGradient id="ai-governance-cyan-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#D9FBFB" stop-opacity="0.92"/><stop offset="1" stop-color="#3DDBD9" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-governance-cyan-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3DDBD9" stop-opacity="0.9"/><stop offset="1" stop-color="#007D79" stop-opacity="0.78"/></linearGradient>
+  
+  <linearGradient id="ai-governance-purple-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E8DAFF"/><stop offset="0.5" stop-color="#A56EFF"/><stop offset="1" stop-color="#6929C4"/></linearGradient>
+  <linearGradient id="ai-governance-purple-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#E8DAFF" stop-opacity="0.92"/><stop offset="1" stop-color="#A56EFF" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-governance-purple-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#A56EFF" stop-opacity="0.9"/><stop offset="1" stop-color="#6929C4" stop-opacity="0.78"/></linearGradient>
+  
+  <linearGradient id="ai-governance-magenta-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF0F7"/><stop offset="0.5" stop-color="#EE5396"/><stop offset="1" stop-color="#9F1853"/></linearGradient>
+  <linearGradient id="ai-governance-magenta-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#FFF0F7" stop-opacity="0.92"/><stop offset="1" stop-color="#EE5396" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-governance-magenta-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#EE5396" stop-opacity="0.9"/><stop offset="1" stop-color="#9F1853" stop-opacity="0.78"/></linearGradient>
+  
+  <linearGradient id="ai-governance-green-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#DEFBE6"/><stop offset="0.5" stop-color="#42BE65"/><stop offset="1" stop-color="#0E6027"/></linearGradient>
+  <linearGradient id="ai-governance-green-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#DEFBE6" stop-opacity="0.92"/><stop offset="1" stop-color="#42BE65" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-governance-green-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#42BE65" stop-opacity="0.9"/><stop offset="1" stop-color="#0E6027" stop-opacity="0.78"/></linearGradient>
+  
+  <linearGradient id="ai-governance-orange-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF2E8"/><stop offset="0.5" stop-color="#FF832B"/><stop offset="1" stop-color="#8A3800"/></linearGradient>
+  <linearGradient id="ai-governance-orange-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#FFF2E8" stop-opacity="0.92"/><stop offset="1" stop-color="#FF832B" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-governance-orange-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FF832B" stop-opacity="0.9"/><stop offset="1" stop-color="#8A3800" stop-opacity="0.78"/></linearGradient>
+  
+  <linearGradient id="ai-governance-red-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF1F1"/><stop offset="0.5" stop-color="#FA4D56"/><stop offset="1" stop-color="#A2191F"/></linearGradient>
+  <linearGradient id="ai-governance-red-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#FFF1F1" stop-opacity="0.92"/><stop offset="1" stop-color="#FA4D56" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-governance-red-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FA4D56" stop-opacity="0.9"/><stop offset="1" stop-color="#A2191F" stop-opacity="0.78"/></linearGradient>
+  <linearGradient id="ai-governance-glass-blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF" stop-opacity="0.95"/><stop offset="0.5" stop-color="#D0E2FF" stop-opacity="0.76"/><stop offset="1" stop-color="#78A9FF" stop-opacity="0.45"/></linearGradient>
+  <linearGradient id="ai-governance-glass-cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF" stop-opacity="0.95"/><stop offset="0.5" stop-color="#D9FBFB" stop-opacity="0.77"/><stop offset="1" stop-color="#3DDBD9" stop-opacity="0.45"/></linearGradient>
+  <linearGradient id="ai-governance-glass-purple" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF" stop-opacity="0.95"/><stop offset="0.5" stop-color="#E8DAFF" stop-opacity="0.8"/><stop offset="1" stop-color="#A56EFF" stop-opacity="0.44"/></linearGradient>
+  <linearGradient id="ai-governance-network" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0F62FE"/><stop offset="0.48" stop-color="#8A3FFC"/><stop offset="1" stop-color="#08BDBA"/></linearGradient>
+  <radialGradient id="ai-governance-halo" cx="0" cy="0" r="1" gradientTransform="translate(248 135) rotate(90) scale(126 218)" gradientUnits="userSpaceOnUse"><stop stop-color="#E8DAFF" stop-opacity="0.34"/><stop offset="0.56" stop-color="#D9FBFB" stop-opacity="0.13"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+  <filter id="ai-governance-shadow" x="-35%" y="-70%" width="170%" height="240%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="5"/></filter>
+  <filter id="ai-governance-soft-shadow" x="-60%" y="-80%" width="220%" height="260%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="3" stdDeviation="2.5" flood-color="#525252" flood-opacity="0.18"/></filter>
+  <marker id="ai-governance-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0 0L8 4L0 8L2.2 4Z" fill="#0F62FE"/></marker>
+  <marker id="ai-governance-arrow-cyan" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0 0L8 4L0 8L2.2 4Z" fill="#08BDBA"/></marker>
+</defs>
+<rect width="496" height="268" fill="url(#ai-governance-halo)"/>
+
+<g opacity="1">
+  <polygon points="248,186.72 407.8,228 248,269.28 88.2,228" fill="#6F6F6F" opacity="0.15" filter="url(#ai-governance-shadow)"/>
+  <polygon points="78,211 248,259 248,270 78,222" fill="url(#ai-governance-surface-left)"/>
+  <polygon points="248,259 418,211 418,222 248,270" fill="url(#ai-governance-surface-right)"/>
+  <polygon points="248,163 418,211 248,259 78,211" fill="url(#ai-governance-surface-top)" stroke="#DDE4EC" stroke-width="0.7"/>
+</g>
+<g opacity="0.84">
+  <polygon points="210,157 248,179 248,230 210,208" fill="url(#ai-governance-purple-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="248,179 286,157 286,208 248,230" fill="url(#ai-governance-purple-right)" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.55"/>
+  <polygon points="248,135 286,157 248,179 210,157" fill="url(#ai-governance-purple-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g>
+<g filter="url(#ai-governance-soft-shadow)">
+  <circle cx="248" cy="146" r="21" fill="url(#ai-governance-glass-purple)" stroke="#8A3FFC" stroke-width="1.2"/>
+  <circle cx="248" cy="146" r="15.96" fill="#FFFFFF" fill-opacity="0.72" stroke="#8A3FFC" stroke-opacity="0.65" stroke-width="0.8"/>
+  <path d="M248 146L248 131.72" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="0.94"/>
+  <path d="M248 146L258.1 135.9" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="0.94"/>
+  <path d="M248 146L262.28 146" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="0.94"/>
+  <path d="M248 146L258.1 156.1" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="0.94"/>
+  <path d="M248 146L248 160.28" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="0.94"/>
+  <path d="M248 146L237.9 156.1" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="0.94"/>
+  <path d="M248 146L233.72 146" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="0.94"/>
+  <path d="M248 146L237.9 135.9" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="0.94"/>
+  <circle cx="248" cy="146" r="4.62" fill="#8A3FFC"/><circle cx="248" cy="146" r="1.68" fill="#FFFFFF"/>
+  <circle cx="248" cy="131.72" r="1.89" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="0.94"/>
+  <circle cx="258.1" cy="135.9" r="1.89" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="0.94"/>
+  <circle cx="262.28" cy="146" r="1.89" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="0.94"/>
+  <circle cx="258.1" cy="156.1" r="1.89" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="0.94"/>
+  <circle cx="248" cy="160.28" r="1.89" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="0.94"/>
+  <circle cx="237.9" cy="156.1" r="1.89" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="0.94"/>
+  <circle cx="233.72" cy="146" r="1.89" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="0.94"/>
+  <circle cx="237.9" cy="135.9" r="1.89" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="0.94"/>
+</g>
+<g transform="translate(248 67)"><path d="M0 -31L29 -18V3C29 23 16 37 0 44C-16 37 -29 23 -29 3V-18Z" fill="url(#ai-governance-glass-blue)" stroke="#0F62FE" stroke-width="1.2"/><path d="M-11 2L-3 10L14 -10" stroke="#08BDBA" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+<path d="M248 111V124" stroke="#0F62FE" stroke-width="1.1"/>
+<g transform="translate(86 111)"><circle cx="0" cy="0" r="22" fill="url(#ai-governance-glass-cyan)" stroke="#08BDBA" stroke-width="1"/><circle cx="0" cy="-6" r="6" fill="#08BDBA"/><path d="M-12 12C-9 0 9 0 12 12" stroke="#08BDBA" stroke-width="1.6" stroke-linecap="round"/></g>
+<g transform="translate(410 111)"><circle cx="0" cy="0" r="22" fill="url(#ai-governance-glass-purple)" stroke="#8A3FFC" stroke-width="1"/><circle cx="0" cy="-6" r="6" fill="#8A3FFC"/><path d="M-12 12C-9 0 9 0 12 12" stroke="#8A3FFC" stroke-width="1.6" stroke-linecap="round"/></g>
+<path d="M108 111H180L218 134M388 111H316L278 134" stroke="url(#ai-governance-network)" stroke-width="1.2" stroke-dasharray="4 4"/>
+<g>
+  <path d="M132 180H145.32L152.72 187.4V208.86H132Z" fill="url(#ai-governance-blue-top)" stroke="#FFFFFF" stroke-width="0.8"/>
+  <path d="M145.32 180V187.4H152.72" stroke="#FFFFFF" stroke-width="0.8"/>
+  <path d="M136.44 194.8H148.28M136.44 200.72H146.06" stroke="#FFFFFF" stroke-width="0.74" stroke-linecap="round"/>
+</g><g><g opacity="0.9">
+  <polygon points="173.13,210 181,214.5 181,226.5 173.13,222" fill="url(#ai-governance-cyan-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="181,214.5 188.88,210 188.88,222 181,226.5" fill="url(#ai-governance-cyan-right)" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.55"/>
+  <polygon points="181,205.5 188.88,210 181,214.5 173.13,210" fill="url(#ai-governance-cyan-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g><circle cx="184.62" cy="217.14" r="1.2" fill="#FFFFFF"/><path d="M177.22 218.82L180.69 221.16" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.6"/></g><g><g opacity="0.9">
+  <polygon points="307.13,210 315,214.5 315,226.5 307.13,222" fill="url(#ai-governance-magenta-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="315,214.5 322.88,210 322.88,222 315,226.5" fill="url(#ai-governance-magenta-right)" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.55"/>
+  <polygon points="315,205.5 322.88,210 315,214.5 307.13,210" fill="url(#ai-governance-magenta-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g><circle cx="318.62" cy="217.14" r="1.2" fill="#FFFFFF"/><path d="M311.22 218.82L314.69 221.16" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.6"/></g><g>
+  <path d="M340 180H353.32L360.72 187.4V208.86H340Z" fill="url(#ai-governance-purple-top)" stroke="#FFFFFF" stroke-width="0.8"/>
+  <path d="M353.32 180V187.4H360.72" stroke="#FFFFFF" stroke-width="0.8"/>
+  <path d="M344.44 194.8H356.28M344.44 200.72H354.06" stroke="#FFFFFF" stroke-width="0.74" stroke-linecap="round"/>
+</g>
+<circle cx="180" cy="111" r="3.1" fill="#08BDBA" stroke="#FFFFFF" stroke-width="1.1"/><circle cx="316" cy="111" r="3.1" fill="#8A3FFC" stroke="#FFFFFF" stroke-width="1.1"/>
+<path d="M170 226H326" stroke="#A6C8FF" stroke-width="0.8"/>
+
+</svg>

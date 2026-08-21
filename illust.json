@@ -40,6 +40,16 @@
     ]
   },
   {
+    "name": "Ai Agent Orchestration Header",
+    "shortname": "ai-agent-orchestration-header",
+    "url": "",
+    "collection": "simple",
+    "source": "simple-icons",
+    "files": [
+      "ai-agent-orchestration-header.svg"
+    ]
+  },
+  {
     "name": "AI Data Extraction",
     "shortname": "ai-data-extraction-soxc",
     "url": "https://undraw.co/search/ai-data-extraction_soxc",
@@ -50,6 +60,36 @@
     ]
   },
   {
+    "name": "Ai Data Pipeline Header",
+    "shortname": "ai-data-pipeline-header",
+    "url": "",
+    "collection": "simple",
+    "source": "simple-icons",
+    "files": [
+      "ai-data-pipeline-header.svg"
+    ]
+  },
+  {
+    "name": "Ai Edge Inference Header",
+    "shortname": "ai-edge-inference-header",
+    "url": "",
+    "collection": "simple",
+    "source": "simple-icons",
+    "files": [
+      "ai-edge-inference-header.svg"
+    ]
+  },
+  {
+    "name": "Ai Evaluation Observability Header",
+    "shortname": "ai-evaluation-observability-header",
+    "url": "",
+    "collection": "simple",
+    "source": "simple-icons",
+    "files": [
+      "ai-evaluation-observability-header.svg"
+    ]
+  },
+  {
     "name": "AI Generated Document",
     "shortname": "ai-generated-document-ykb4",
     "url": "https://undraw.co/search/ai-generated-document_ykb4",
@@ -57,6 +97,66 @@
     "source": "undraw",
     "files": [
       "ai-generated-document-ykb4.svg"
+    ]
+  },
+  {
+    "name": "Ai Governance Safety Header",
+    "shortname": "ai-governance-safety-header",
+    "url": "",
+    "collection": "simple",
+    "source": "simple-icons",
+    "files": [
+      "ai-governance-safety-header.svg"
+    ]
+  },
+  {
+    "name": "Ai Inference Serving Header",
+    "shortname": "ai-inference-serving-header",
+    "url": "",
+    "collection": "simple",
+    "source": "simple-icons",
+    "files": [
+      "ai-inference-serving-header.svg"
+    ]
+  },
+  {
+    "name": "Ai Model Registry Header",
+    "shortname": "ai-model-registry-header",
+    "url": "",
+    "collection": "simple",
+    "source": "simple-icons",
+    "files": [
+      "ai-model-registry-header.svg"
+    ]
+  },
+  {
+    "name": "Ai Model Training Header",
+    "shortname": "ai-model-training-header",
+    "url": "",
+    "collection": "simple",
+    "source": "simple-icons",
+    "files": [
+      "ai-model-training-header.svg"
+    ]
+  },
+  {
+    "name": "Ai Platform Overview Header",
+    "shortname": "ai-platform-overview-header",
+    "url": "",
+    "collection": "simple",
+    "source": "simple-icons",
+    "files": [
+      "ai-platform-overview-header.svg"
+    ]
+  },
+  {
+    "name": "Ai Rag Knowledge Header",
+    "shortname": "ai-rag-knowledge-header",
+    "url": "",
+    "collection": "simple",
+    "source": "simple-icons",
+    "files": [
+      "ai-rag-knowledge-header.svg"
     ]
   },
   {

@@ -1,0 +1,138 @@
+<svg width="496" height="268" viewBox="0 0 496 268" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ai-training-title ai-training-description">
+<title id="ai-training-title">Distributed AI model training</title>
+<desc id="ai-training-description">Training jobs coordinate batches across accelerators while gradients converge into a new model checkpoint.</desc>
+<defs>
+  <linearGradient id="ai-training-surface-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF"/><stop offset="0.55" stop-color="#F4F7FB"/><stop offset="1" stop-color="#E0E7EF"/></linearGradient>
+  <linearGradient id="ai-training-surface-left" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E8EDF3"/><stop offset="1" stop-color="#C6CFD9"/></linearGradient>
+  <linearGradient id="ai-training-surface-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#DDE4EC"/><stop offset="1" stop-color="#AEB8C4"/></linearGradient>
+  
+  <linearGradient id="ai-training-blue-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D0E2FF"/><stop offset="0.5" stop-color="#78A9FF"/><stop offset="1" stop-color="#0F62FE"/></linearGradient>
+  <linearGradient id="ai-training-blue-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#D0E2FF" stop-opacity="0.92"/><stop offset="1" stop-color="#78A9FF" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-training-blue-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#78A9FF" stop-opacity="0.9"/><stop offset="1" stop-color="#0F62FE" stop-opacity="0.78"/></linearGradient>
+  
+  <linearGradient id="ai-training-cyan-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D9FBFB"/><stop offset="0.5" stop-color="#3DDBD9"/><stop offset="1" stop-color="#007D79"/></linearGradient>
+  <linearGradient id="ai-training-cyan-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#D9FBFB" stop-opacity="0.92"/><stop offset="1" stop-color="#3DDBD9" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-training-cyan-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3DDBD9" stop-opacity="0.9"/><stop offset="1" stop-color="#007D79" stop-opacity="0.78"/></linearGradient>
+  
+  <linearGradient id="ai-training-purple-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E8DAFF"/><stop offset="0.5" stop-color="#A56EFF"/><stop offset="1" stop-color="#6929C4"/></linearGradient>
+  <linearGradient id="ai-training-purple-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#E8DAFF" stop-opacity="0.92"/><stop offset="1" stop-color="#A56EFF" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-training-purple-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#A56EFF" stop-opacity="0.9"/><stop offset="1" stop-color="#6929C4" stop-opacity="0.78"/></linearGradient>
+  
+  <linearGradient id="ai-training-magenta-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF0F7"/><stop offset="0.5" stop-color="#EE5396"/><stop offset="1" stop-color="#9F1853"/></linearGradient>
+  <linearGradient id="ai-training-magenta-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#FFF0F7" stop-opacity="0.92"/><stop offset="1" stop-color="#EE5396" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-training-magenta-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#EE5396" stop-opacity="0.9"/><stop offset="1" stop-color="#9F1853" stop-opacity="0.78"/></linearGradient>
+  
+  <linearGradient id="ai-training-green-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#DEFBE6"/><stop offset="0.5" stop-color="#42BE65"/><stop offset="1" stop-color="#0E6027"/></linearGradient>
+  <linearGradient id="ai-training-green-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#DEFBE6" stop-opacity="0.92"/><stop offset="1" stop-color="#42BE65" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-training-green-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#42BE65" stop-opacity="0.9"/><stop offset="1" stop-color="#0E6027" stop-opacity="0.78"/></linearGradient>
+  
+  <linearGradient id="ai-training-orange-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF2E8"/><stop offset="0.5" stop-color="#FF832B"/><stop offset="1" stop-color="#8A3800"/></linearGradient>
+  <linearGradient id="ai-training-orange-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#FFF2E8" stop-opacity="0.92"/><stop offset="1" stop-color="#FF832B" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-training-orange-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FF832B" stop-opacity="0.9"/><stop offset="1" stop-color="#8A3800" stop-opacity="0.78"/></linearGradient>
+  
+  <linearGradient id="ai-training-red-top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF1F1"/><stop offset="0.5" stop-color="#FA4D56"/><stop offset="1" stop-color="#A2191F"/></linearGradient>
+  <linearGradient id="ai-training-red-left" x1="0" y1="0" x2="0.85" y2="1"><stop stop-color="#FFF1F1" stop-opacity="0.92"/><stop offset="1" stop-color="#FA4D56" stop-opacity="0.64"/></linearGradient>
+  <linearGradient id="ai-training-red-right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FA4D56" stop-opacity="0.9"/><stop offset="1" stop-color="#A2191F" stop-opacity="0.78"/></linearGradient>
+  <linearGradient id="ai-training-glass-blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF" stop-opacity="0.95"/><stop offset="0.5" stop-color="#D0E2FF" stop-opacity="0.76"/><stop offset="1" stop-color="#78A9FF" stop-opacity="0.45"/></linearGradient>
+  <linearGradient id="ai-training-glass-cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF" stop-opacity="0.95"/><stop offset="0.5" stop-color="#D9FBFB" stop-opacity="0.77"/><stop offset="1" stop-color="#3DDBD9" stop-opacity="0.45"/></linearGradient>
+  <linearGradient id="ai-training-glass-purple" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF" stop-opacity="0.95"/><stop offset="0.5" stop-color="#E8DAFF" stop-opacity="0.8"/><stop offset="1" stop-color="#A56EFF" stop-opacity="0.44"/></linearGradient>
+  <linearGradient id="ai-training-network" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0F62FE"/><stop offset="0.48" stop-color="#8A3FFC"/><stop offset="1" stop-color="#08BDBA"/></linearGradient>
+  <radialGradient id="ai-training-halo" cx="0" cy="0" r="1" gradientTransform="translate(248 135) rotate(90) scale(126 218)" gradientUnits="userSpaceOnUse"><stop stop-color="#E8DAFF" stop-opacity="0.34"/><stop offset="0.56" stop-color="#D9FBFB" stop-opacity="0.13"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+  <filter id="ai-training-shadow" x="-35%" y="-70%" width="170%" height="240%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="5"/></filter>
+  <filter id="ai-training-soft-shadow" x="-60%" y="-80%" width="220%" height="260%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="3" stdDeviation="2.5" flood-color="#525252" flood-opacity="0.18"/></filter>
+  <marker id="ai-training-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0 0L8 4L0 8L2.2 4Z" fill="#0F62FE"/></marker>
+  <marker id="ai-training-arrow-cyan" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0 0L8 4L0 8L2.2 4Z" fill="#08BDBA"/></marker>
+</defs>
+<rect width="496" height="268" fill="url(#ai-training-halo)"/>
+
+<g opacity="1">
+  <polygon points="248,185.86 418.14,228 248,270.14 77.86,228" fill="#6F6F6F" opacity="0.15" filter="url(#ai-training-shadow)"/>
+  <polygon points="67,211 248,260 248,271 67,222" fill="url(#ai-training-surface-left)"/>
+  <polygon points="248,260 429,211 429,222 248,271" fill="url(#ai-training-surface-right)"/>
+  <polygon points="248,162 429,211 248,260 67,211" fill="url(#ai-training-surface-top)" stroke="#DDE4EC" stroke-width="0.7"/>
+</g>
+<g>
+  <rect x="192" y="112" width="8" height="16" rx="2" fill="#A6C8FF"/><rect x="192" y="200" width="8" height="16" rx="2" fill="#78A9FF"/>
+  <rect x="212.8" y="112" width="8" height="16" rx="2" fill="#A6C8FF"/><rect x="212.8" y="200" width="8" height="16" rx="2" fill="#78A9FF"/>
+  <rect x="233.6" y="112" width="8" height="16" rx="2" fill="#A6C8FF"/><rect x="233.6" y="200" width="8" height="16" rx="2" fill="#78A9FF"/>
+  <rect x="254.4" y="112" width="8" height="16" rx="2" fill="#A6C8FF"/><rect x="254.4" y="200" width="8" height="16" rx="2" fill="#78A9FF"/>
+  <rect x="275.2" y="112" width="8" height="16" rx="2" fill="#A6C8FF"/><rect x="275.2" y="200" width="8" height="16" rx="2" fill="#78A9FF"/>
+  <rect x="296" y="112" width="8" height="16" rx="2" fill="#A6C8FF"/><rect x="296" y="200" width="8" height="16" rx="2" fill="#78A9FF"/>
+  <rect x="182" y="125" width="132" height="78" rx="10" fill="url(#ai-training-glass-blue)" stroke="#0F62FE" stroke-width="1.2"/>
+  <rect x="196" y="137" width="104" height="54" rx="7" fill="#FFFFFF" fill-opacity="0.48" stroke="#78A9FF" stroke-width="0.8"/>
+  <g filter="url(#ai-training-soft-shadow)">
+  <circle cx="248" cy="164" r="21.060000000000002" fill="url(#ai-training-glass-purple)" stroke="#8A3FFC" stroke-width="1.2"/>
+  <circle cx="248" cy="164" r="16.01" fill="#FFFFFF" fill-opacity="0.72" stroke="#8A3FFC" stroke-opacity="0.65" stroke-width="0.8"/>
+  <path d="M248 164L248 149.68" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="0.95"/>
+  <path d="M248 164L258.13 153.87" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="0.95"/>
+  <path d="M248 164L262.32 164" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="0.95"/>
+  <path d="M248 164L258.13 174.13" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="0.95"/>
+  <path d="M248 164L248 178.32" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="0.95"/>
+  <path d="M248 164L237.87 174.13" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="0.95"/>
+  <path d="M248 164L233.68 164" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="0.95"/>
+  <path d="M248 164L237.87 153.87" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="0.95"/>
+  <circle cx="248" cy="164" r="4.63" fill="#8A3FFC"/><circle cx="248" cy="164" r="1.68" fill="#FFFFFF"/>
+  <circle cx="248" cy="149.68" r="1.9" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="0.95"/>
+  <circle cx="258.13" cy="153.87" r="1.9" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="0.95"/>
+  <circle cx="262.32" cy="164" r="1.9" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="0.95"/>
+  <circle cx="258.13" cy="174.13" r="1.9" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="0.95"/>
+  <circle cx="248" cy="178.32" r="1.9" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="0.95"/>
+  <circle cx="237.87" cy="174.13" r="1.9" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="0.95"/>
+  <circle cx="233.68" cy="164" r="1.9" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="0.95"/>
+  <circle cx="237.87" cy="153.87" r="1.9" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="0.95"/>
+</g>
+</g>
+<g opacity="0.88">
+  <polygon points="86,158 112,173 112,219 86,204" fill="url(#ai-training-cyan-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="112,173 138,158 138,204 112,219" fill="url(#ai-training-cyan-right)" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.55"/>
+  <polygon points="112,143 138,158 112,173 86,158" fill="url(#ai-training-cyan-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g><g opacity="0.88">
+  <polygon points="358,158 384,173 384,219 358,204" fill="url(#ai-training-purple-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="384,173 410,158 410,204 384,219" fill="url(#ai-training-purple-right)" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.55"/>
+  <polygon points="384,143 410,158 384,173 358,158" fill="url(#ai-training-purple-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g>
+<path d="M138 174H181M315 174H358" stroke="url(#ai-training-network)" stroke-width="1.4" marker-end="url(#ai-training-arrow)"/>
+<g><g opacity="0.9">
+  <polygon points="76.13,202 84,206.5 84,218.5 76.13,214" fill="url(#ai-training-cyan-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="84,206.5 91.88,202 91.88,214 84,218.5" fill="url(#ai-training-cyan-right)" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.55"/>
+  <polygon points="84,197.5 91.88,202 84,206.5 76.13,202" fill="url(#ai-training-cyan-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g><circle cx="87.62" cy="209.14" r="1.2" fill="#FFFFFF"/><path d="M80.22 210.82L83.69 213.16" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.6"/></g><g><g opacity="0.9">
+  <polygon points="108.13,219 116,223.5 116,235.5 108.13,231" fill="url(#ai-training-blue-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="116,223.5 123.88,219 123.88,231 116,235.5" fill="url(#ai-training-blue-right)" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.55"/>
+  <polygon points="116,214.5 123.88,219 116,223.5 108.13,219" fill="url(#ai-training-blue-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g><circle cx="119.62" cy="226.14" r="1.2" fill="#FFFFFF"/><path d="M112.22 227.82L115.69 230.16" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.6"/></g><g><g opacity="0.9">
+  <polygon points="372.13,219 380,223.5 380,235.5 372.13,231" fill="url(#ai-training-purple-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="380,223.5 387.88,219 387.88,231 380,235.5" fill="url(#ai-training-purple-right)" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.55"/>
+  <polygon points="380,214.5 387.88,219 380,223.5 372.13,219" fill="url(#ai-training-purple-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g><circle cx="383.62" cy="226.14" r="1.2" fill="#FFFFFF"/><path d="M376.22 227.82L379.69 230.16" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.6"/></g><g><g opacity="0.9">
+  <polygon points="404.13,202 412,206.5 412,218.5 404.13,214" fill="url(#ai-training-magenta-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="412,206.5 419.88,202 419.88,214 412,218.5" fill="url(#ai-training-magenta-right)" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.55"/>
+  <polygon points="412,197.5 419.88,202 412,206.5 404.13,202" fill="url(#ai-training-magenta-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g><circle cx="415.62" cy="209.14" r="1.2" fill="#FFFFFF"/><path d="M408.22 210.82L411.69 213.16" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.6"/></g>
+<path d="M105 141C148 71 206 62 248 91C290 62 348 71 391 141" stroke="#0F62FE" stroke-width="1.25" stroke-dasharray="4 4"/>
+<g filter="url(#ai-training-soft-shadow)">
+  <circle cx="248" cy="69" r="24" fill="url(#ai-training-glass-purple)" stroke="#8A3FFC" stroke-width="1.2"/>
+  <circle cx="248" cy="69" r="18.24" fill="#FFFFFF" fill-opacity="0.72" stroke="#8A3FFC" stroke-opacity="0.65" stroke-width="0.8"/>
+  <path d="M248 69L248 52.68" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="1.08"/>
+  <path d="M248 69L259.54 57.46" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="1.08"/>
+  <path d="M248 69L264.32 69" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="1.08"/>
+  <path d="M248 69L259.54 80.54" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="1.08"/>
+  <path d="M248 69L248 85.32" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="1.08"/>
+  <path d="M248 69L236.46 80.54" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="1.08"/>
+  <path d="M248 69L231.68 69" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="1.08"/>
+  <path d="M248 69L236.46 57.46" stroke="#8A3FFC" stroke-opacity="0.82" stroke-width="1.08"/>
+  <circle cx="248" cy="69" r="5.28" fill="#8A3FFC"/><circle cx="248" cy="69" r="1.92" fill="#FFFFFF"/>
+  <circle cx="248" cy="52.68" r="2.16" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="1.08"/>
+  <circle cx="259.54" cy="57.46" r="2.16" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="1.08"/>
+  <circle cx="264.32" cy="69" r="2.16" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="1.08"/>
+  <circle cx="259.54" cy="80.54" r="2.16" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="1.08"/>
+  <circle cx="248" cy="85.32" r="2.16" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="1.08"/>
+  <circle cx="236.46" cy="80.54" r="2.16" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="1.08"/>
+  <circle cx="231.68" cy="69" r="2.16" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="1.08"/>
+  <circle cx="236.46" cy="57.46" r="2.16" fill="#FFFFFF" stroke="#8A3FFC" stroke-width="1.08"/>
+</g>
+<path d="M248 94V123" stroke="#8A3FFC" stroke-width="1.1"/>
+<path d="M65 105C104 70 151 66 181 91M315 91C345 66 392 70 431 105" stroke="#08BDBA" stroke-width="1.3" marker-end="url(#ai-training-arrow-cyan)"/>
+<circle cx="65" cy="105" r="3" fill="#08BDBA" stroke="#FFFFFF" stroke-width="1.1"/><circle cx="431" cy="105" r="3" fill="#42BE65" stroke="#FFFFFF" stroke-width="1.1"/>
+
+</svg>
