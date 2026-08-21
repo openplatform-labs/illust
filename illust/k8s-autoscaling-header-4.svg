@@ -1,0 +1,255 @@
+<svg width="496" height="268" viewBox="0 0 496 268" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="k8s-network-title k8s-network-description">
+<title id="k8s-network-title">Kubernetes services and network mesh</title>
+<desc id="k8s-network-description">An isometric Kubernetes service mesh connecting ingress, services, pods, policy, and external endpoints.</desc>
+
+<defs>
+  <linearGradient id="k8s-network-surface-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFFFFF"/>
+    <stop offset="0.55" stop-color="#F4F7FB"/>
+    <stop offset="1" stop-color="#E0E7EF"/>
+  </linearGradient>
+  <linearGradient id="k8s-network-surface-left" x1="0" y1="0" x2="0.9" y2="1">
+    <stop stop-color="#E8EDF3"/>
+    <stop offset="1" stop-color="#C6CFD9"/>
+  </linearGradient>
+  <linearGradient id="k8s-network-surface-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#DDE4EC"/>
+    <stop offset="1" stop-color="#AEB8C4"/>
+  </linearGradient>
+  <linearGradient id="k8s-network-blue-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#D0E2FF"/>
+    <stop offset="0.46" stop-color="#78A9FF"/>
+    <stop offset="1" stop-color="#0F62FE"/>
+  </linearGradient>
+  <linearGradient id="k8s-network-blue-left" x1="0" y1="0" x2="0.8" y2="1">
+    <stop stop-color="#A6C8FF" stop-opacity="0.86"/>
+    <stop offset="1" stop-color="#4589FF" stop-opacity="0.58"/>
+  </linearGradient>
+  <linearGradient id="k8s-network-blue-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#4589FF" stop-opacity="0.86"/>
+    <stop offset="1" stop-color="#002D9C" stop-opacity="0.74"/>
+  </linearGradient>
+  <linearGradient id="k8s-network-cyan-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#D9FBFB"/>
+    <stop offset="0.45" stop-color="#3DDBD9"/>
+    <stop offset="1" stop-color="#08BDBA"/>
+  </linearGradient>
+  <linearGradient id="k8s-network-cyan-left" x1="0" y1="0" x2="0.8" y2="1">
+    <stop stop-color="#9EF0F0" stop-opacity="0.88"/>
+    <stop offset="1" stop-color="#08BDBA" stop-opacity="0.62"/>
+  </linearGradient>
+  <linearGradient id="k8s-network-cyan-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#08BDBA" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#005D5D" stop-opacity="0.76"/>
+  </linearGradient>
+  <linearGradient id="k8s-network-purple-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#E8DAFF"/>
+    <stop offset="0.52" stop-color="#A56EFF"/>
+    <stop offset="1" stop-color="#6929C4"/>
+  </linearGradient>
+  <linearGradient id="k8s-network-purple-left" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#D4BBFF" stop-opacity="0.88"/>
+    <stop offset="1" stop-color="#8A3FFC" stop-opacity="0.62"/>
+  </linearGradient>
+  <linearGradient id="k8s-network-purple-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#8A3FFC" stop-opacity="0.88"/>
+    <stop offset="1" stop-color="#491D8B" stop-opacity="0.76"/>
+  </linearGradient>
+  <linearGradient id="k8s-network-green-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#DEFBE6"/>
+    <stop offset="0.5" stop-color="#42BE65"/>
+    <stop offset="1" stop-color="#198038"/>
+  </linearGradient>
+  <linearGradient id="k8s-network-green-left" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#A7F0BA" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#24A148" stop-opacity="0.62"/>
+  </linearGradient>
+  <linearGradient id="k8s-network-green-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#24A148" stop-opacity="0.88"/>
+    <stop offset="1" stop-color="#0E6027" stop-opacity="0.76"/>
+  </linearGradient>
+  <linearGradient id="k8s-network-orange-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFF2E8"/>
+    <stop offset="0.52" stop-color="#FF832B"/>
+    <stop offset="1" stop-color="#BA4E00"/>
+  </linearGradient>
+  <linearGradient id="k8s-network-orange-left" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFD9BE" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#FF832B" stop-opacity="0.62"/>
+  </linearGradient>
+  <linearGradient id="k8s-network-orange-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FF832B" stop-opacity="0.88"/>
+    <stop offset="1" stop-color="#8A3800" stop-opacity="0.78"/>
+  </linearGradient>
+  <linearGradient id="k8s-network-glass-blue" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFFFFF" stop-opacity="0.92"/>
+    <stop offset="0.45" stop-color="#D0E2FF" stop-opacity="0.78"/>
+    <stop offset="1" stop-color="#78A9FF" stop-opacity="0.48"/>
+  </linearGradient>
+  <linearGradient id="k8s-network-glass-cyan" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFFFFF" stop-opacity="0.94"/>
+    <stop offset="0.5" stop-color="#D9FBFB" stop-opacity="0.78"/>
+    <stop offset="1" stop-color="#3DDBD9" stop-opacity="0.48"/>
+  </linearGradient>
+  <linearGradient id="k8s-network-network" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#0F62FE"/>
+    <stop offset="0.48" stop-color="#8A3FFC"/>
+    <stop offset="1" stop-color="#08BDBA"/>
+  </linearGradient>
+  <linearGradient id="k8s-network-cloud" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#EDF5FF"/>
+    <stop offset="0.52" stop-color="#A6C8FF"/>
+    <stop offset="1" stop-color="#3DDBD9"/>
+  </linearGradient>
+  <radialGradient id="k8s-network-halo" cx="0" cy="0" r="1" gradientTransform="translate(248 132) rotate(90) scale(126 218)" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#D0E2FF" stop-opacity="0.42"/>
+    <stop offset="0.58" stop-color="#D9FBFB" stop-opacity="0.12"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="k8s-network-shadow" x="-30%" y="-60%" width="160%" height="220%" color-interpolation-filters="sRGB">
+    <feGaussianBlur stdDeviation="5"/>
+  </filter>
+  <filter id="k8s-network-soft-shadow" x="-50%" y="-80%" width="200%" height="260%" color-interpolation-filters="sRGB">
+    <feDropShadow dx="0" dy="3" stdDeviation="2.4" flood-color="#525252" flood-opacity="0.18"/>
+  </filter>
+  <filter id="k8s-network-glow" x="-120%" y="-120%" width="340%" height="340%" color-interpolation-filters="sRGB">
+    <feGaussianBlur stdDeviation="3.2" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <marker id="k8s-network-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth">
+    <path d="M0 0L8 4L0 8L2.2 4Z" fill="#0F62FE"/>
+  </marker>
+</defs>
+<rect width="496" height="268" fill="url(#k8s-network-halo)"/>
+
+<g opacity="1">
+  <polygon points="270,149.71 385.62,194 270,238.29 154.38,194" fill="#6F6F6F" opacity="0.16" filter="url(#k8s-network-shadow)"/>
+  <polygon points="147,177 270,228.5 270,239.5 147,188" fill="url(#k8s-network-surface-left)"/>
+  <polygon points="270,228.5 393,177 393,188 270,239.5" fill="url(#k8s-network-surface-right)"/>
+  <polygon points="270,125.5 393,177 270,228.5 147,177" fill="url(#k8s-network-surface-top)" stroke="#DDE4EC" stroke-width="0.7"/>
+</g>
+<polygon points="270,111 381,166 270,221 159,166" fill="#D9FBFB" fill-opacity="0.18" stroke="#3DDBD9" stroke-opacity="0.34" stroke-width="0.7"/>
+<path d="M228 122L270 101" stroke="url(#k8s-network-network)" stroke-width="1.05" stroke-opacity="0.78"/>
+<path d="M270 101L312 122" stroke="url(#k8s-network-network)" stroke-width="1.05" stroke-opacity="0.78"/>
+<path d="M228 122L270 145" stroke="url(#k8s-network-network)" stroke-width="1.05" stroke-opacity="0.78"/>
+<path d="M312 122L270 145" stroke="url(#k8s-network-network)" stroke-width="1.05" stroke-opacity="0.78"/>
+<path d="M228 166L270 145" stroke="url(#k8s-network-network)" stroke-width="1.05" stroke-opacity="0.78"/>
+<path d="M312 166L270 145" stroke="url(#k8s-network-network)" stroke-width="1.05" stroke-opacity="0.78"/>
+<path d="M228 122L228 166" stroke="url(#k8s-network-network)" stroke-width="1.05" stroke-opacity="0.78"/>
+<path d="M312 122L312 166" stroke="url(#k8s-network-network)" stroke-width="1.05" stroke-opacity="0.78"/>
+<path d="M228 166L312 166" stroke="url(#k8s-network-network)" stroke-width="1.05" stroke-opacity="0.78"/>
+<g>
+<g opacity="1">
+  <polygon points="220.97,122 228,126.07 228,136.43 220.97,132.36" fill="url(#k8s-network-blue-left)" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="0.5"/>
+  <polygon points="228,126.07 235.03,122 235.03,132.36 228,136.43" fill="url(#k8s-network-blue-right)" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="0.5"/>
+  <polygon points="228,117.93 235.03,122 228,126.07 220.97,122" fill="url(#k8s-network-blue-top)" stroke="#FFFFFF" stroke-opacity="0.62" stroke-width="0.6"/>
+</g>
+  <circle cx="231.37" cy="127.88" r="1.15" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/>
+  <path d="M224.91 129.61L227.72 131.75" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.59" stroke-linecap="round"/>
+</g><circle cx="228" cy="113" r="2.4" fill="#0F62FE" stroke="#FFFFFF" stroke-width="1.2"/>
+<g>
+<g opacity="1">
+  <polygon points="262.97,101 270,105.07 270,115.43 262.97,111.36" fill="url(#k8s-network-cyan-left)" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="0.5"/>
+  <polygon points="270,105.07 277.03,101 277.03,111.36 270,115.43" fill="url(#k8s-network-cyan-right)" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="0.5"/>
+  <polygon points="270,96.93 277.03,101 270,105.07 262.97,101" fill="url(#k8s-network-cyan-top)" stroke="#FFFFFF" stroke-opacity="0.62" stroke-width="0.6"/>
+</g>
+  <circle cx="273.37" cy="106.88" r="1.15" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/>
+  <path d="M266.91 108.61L269.72 110.75" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.59" stroke-linecap="round"/>
+</g><circle cx="270" cy="92" r="2.4" fill="#08BDBA" stroke="#FFFFFF" stroke-width="1.2"/>
+<g>
+<g opacity="1">
+  <polygon points="304.97,122 312,126.07 312,136.43 304.97,132.36" fill="url(#k8s-network-purple-left)" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="0.5"/>
+  <polygon points="312,126.07 319.03,122 319.03,132.36 312,136.43" fill="url(#k8s-network-purple-right)" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="0.5"/>
+  <polygon points="312,117.93 319.03,122 312,126.07 304.97,122" fill="url(#k8s-network-purple-top)" stroke="#FFFFFF" stroke-opacity="0.62" stroke-width="0.6"/>
+</g>
+  <circle cx="315.37" cy="127.88" r="1.15" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/>
+  <path d="M308.91 129.61L311.72 131.75" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.59" stroke-linecap="round"/>
+</g><circle cx="312" cy="113" r="2.4" fill="#0F62FE" stroke="#FFFFFF" stroke-width="1.2"/>
+<g>
+<g opacity="1">
+  <polygon points="220.97,166 228,170.07 228,180.43 220.97,176.36" fill="url(#k8s-network-cyan-left)" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="0.5"/>
+  <polygon points="228,170.07 235.03,166 235.03,176.36 228,180.43" fill="url(#k8s-network-cyan-right)" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="0.5"/>
+  <polygon points="228,161.93 235.03,166 228,170.07 220.97,166" fill="url(#k8s-network-cyan-top)" stroke="#FFFFFF" stroke-opacity="0.62" stroke-width="0.6"/>
+</g>
+  <circle cx="231.37" cy="171.88" r="1.15" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/>
+  <path d="M224.91 173.61L227.72 175.75" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.59" stroke-linecap="round"/>
+</g><circle cx="228" cy="157" r="2.4" fill="#08BDBA" stroke="#FFFFFF" stroke-width="1.2"/>
+<g>
+<g opacity="1">
+  <polygon points="262.97,145 270,149.07 270,159.43 262.97,155.36" fill="url(#k8s-network-purple-left)" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="0.5"/>
+  <polygon points="270,149.07 277.03,145 277.03,155.36 270,159.43" fill="url(#k8s-network-purple-right)" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="0.5"/>
+  <polygon points="270,140.93 277.03,145 270,149.07 262.97,145" fill="url(#k8s-network-purple-top)" stroke="#FFFFFF" stroke-opacity="0.62" stroke-width="0.6"/>
+</g>
+  <circle cx="273.37" cy="150.88" r="1.15" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/>
+  <path d="M266.91 152.61L269.72 154.75" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.59" stroke-linecap="round"/>
+</g><circle cx="270" cy="136" r="2.4" fill="#0F62FE" stroke="#FFFFFF" stroke-width="1.2"/>
+<g>
+<g opacity="1">
+  <polygon points="304.97,166 312,170.07 312,180.43 304.97,176.36" fill="url(#k8s-network-blue-left)" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="0.5"/>
+  <polygon points="312,170.07 319.03,166 319.03,176.36 312,180.43" fill="url(#k8s-network-blue-right)" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="0.5"/>
+  <polygon points="312,161.93 319.03,166 312,170.07 304.97,166" fill="url(#k8s-network-blue-top)" stroke="#FFFFFF" stroke-opacity="0.62" stroke-width="0.6"/>
+</g>
+  <circle cx="315.37" cy="171.88" r="1.15" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/>
+  <path d="M308.91 173.61L311.72 175.75" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.59" stroke-linecap="round"/>
+</g><circle cx="312" cy="157" r="2.4" fill="#08BDBA" stroke="#FFFFFF" stroke-width="1.2"/>
+<g opacity="1">
+  <polygon points="73,163.62 125.64,192 73,220.38 20.36,192" fill="#6F6F6F" opacity="0.16" filter="url(#k8s-network-shadow)"/>
+  <polygon points="17,176 73,209 73,219 17,186" fill="url(#k8s-network-surface-left)"/>
+  <polygon points="73,209 129,176 129,186 73,219" fill="url(#k8s-network-surface-right)"/>
+  <polygon points="73,143 129,176 73,209 17,176" fill="url(#k8s-network-surface-top)" stroke="#DDE4EC" stroke-width="0.7"/>
+</g>
+<g opacity="0.94">
+  <polygon points="46,132 73,148 73,194 46,178" fill="url(#k8s-network-cyan-left)" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="0.5"/>
+  <polygon points="73,148 100,132 100,178 73,194" fill="url(#k8s-network-cyan-right)" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="0.5"/>
+  <polygon points="73,116 100,132 73,148 46,132" fill="url(#k8s-network-cyan-top)" stroke="#FFFFFF" stroke-opacity="0.62" stroke-width="0.6"/>
+</g>
+<path d="M52 141L73 153L94 141" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.78"/>
+<path d="M60 129H86M60 136H86" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round"/>
+<circle cx="73" cy="123" r="5" fill="#FFFFFF" fill-opacity="0.88"/><path d="M70 123H76M73 120V126" stroke="#08BDBA" stroke-width="1.1"/>
+<path d="M100 149L184 149" stroke="#08BDBA" stroke-width="1.45" marker-end="url(#k8s-network-arrow)"/>
+<circle cx="132" cy="149" r="2.7" fill="#08BDBA" stroke="#FFFFFF" stroke-width="1.2"/>
+<g opacity="1">
+  <polygon points="430,166.63 473.24,192 430,217.37 386.76,192" fill="#6F6F6F" opacity="0.16" filter="url(#k8s-network-shadow)"/>
+  <polygon points="384,177 430,206.5 430,215.5 384,186" fill="url(#k8s-network-surface-left)"/>
+  <polygon points="430,206.5 476,177 476,186 430,215.5" fill="url(#k8s-network-surface-right)"/>
+  <polygon points="430,147.5 476,177 430,206.5 384,177" fill="url(#k8s-network-surface-top)" stroke="#DDE4EC" stroke-width="0.7"/>
+</g>
+<g><g opacity="1">
+  <polygon points="404.5,127 418,134.56 418,176.56 404.5,169" fill="url(#k8s-network-purple-left)" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="0.5"/>
+  <polygon points="418,134.56 431.5,127 431.5,169 418,176.56" fill="url(#k8s-network-purple-right)" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="0.5"/>
+  <polygon points="418,119.44 431.5,127 418,134.56 404.5,127" fill="url(#k8s-network-purple-top)" stroke="#FFFFFF" stroke-opacity="0.62" stroke-width="0.6"/>
+</g><path d="M408.5 143.32L417 150.32" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="1"/>
+      <circle cx="410.5" cy="145.82" r="1.25" fill="#3DDBD9"/>
+<path d="M408.5 152.14L417 159.14" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="1"/>
+      <circle cx="410.5" cy="154.64" r="1.25" fill="#3DDBD9"/>
+<path d="M408.5 160.96L417 167.96" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="1"/>
+      <circle cx="410.5" cy="163.46" r="1.25" fill="#3DDBD9"/></g>
+<g><g opacity="1">
+  <polygon points="432.5,141 445,148 445,184 432.5,177" fill="url(#k8s-network-blue-left)" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="0.5"/>
+  <polygon points="445,148 457.5,141 457.5,177 445,184" fill="url(#k8s-network-blue-right)" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="0.5"/>
+  <polygon points="445,134 457.5,141 445,148 432.5,141" fill="url(#k8s-network-blue-top)" stroke="#FFFFFF" stroke-opacity="0.62" stroke-width="0.6"/>
+</g><path d="M436.5 155.08L444 162.08" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="1"/>
+      <circle cx="438.5" cy="157.58" r="1.25" fill="#3DDBD9"/>
+<path d="M436.5 162.64L444 169.64" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="1"/>
+      <circle cx="438.5" cy="165.14" r="1.25" fill="#3DDBD9"/>
+<path d="M436.5 170.2L444 177.2" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="1"/>
+      <circle cx="438.5" cy="172.7" r="1.25" fill="#3DDBD9"/></g>
+<path d="M338 149L396 149" stroke="#8A3FFC" stroke-width="1.45" marker-end="url(#k8s-network-arrow)"/>
+<circle cx="368" cy="149" r="2.7" fill="#8A3FFC" stroke="#FFFFFF" stroke-width="1.2"/>
+<g transform="translate(348 69)">
+  <path d="M0 -23L20 -14V1C20 15 11 24 0 29C-11 24-20 15-20 1V-14L0-23Z" fill="url(#k8s-network-glass-blue)" stroke="#0F62FE" stroke-width="1.2"/>
+  <path d="M-8 1L-2 7L10 -7" stroke="#0F62FE" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path d="M348 99V120L326 131" stroke="#0F62FE" stroke-width="1" stroke-dasharray="3 4"/>
+<g opacity="0.92" filter="url(#k8s-network-soft-shadow)">
+  <circle cx="142.5" cy="62.32" r="13.34" fill="url(#k8s-network-cloud)"/>
+  <circle cx="158.16" cy="55.94" r="17.4" fill="url(#k8s-network-cloud)"/>
+  <circle cx="174.98" cy="64.06" r="11.6" fill="url(#k8s-network-cloud)"/>
+  <ellipse cx="157.58" cy="69.86" rx="27.84" ry="11.6" fill="url(#k8s-network-cloud)"/>
+</g>
+<path d="M157 82V103L190 120" stroke="#08BDBA" stroke-width="1.1" stroke-dasharray="3 4"/>
+<g opacity="0.72">
+  <circle cx="223" cy="202" r="2" fill="#0F62FE"/><circle cx="239" cy="210" r="2" fill="#08BDBA"/><circle cx="270" cy="210" r="2" fill="#8A3FFC"/><circle cx="301" cy="210" r="2" fill="#0F62FE"/><circle cx="317" cy="202" r="2" fill="#08BDBA"/>
+</g>
+
+</svg>

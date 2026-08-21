@@ -1,0 +1,282 @@
+<svg width="496" height="268" viewBox="0 0 496 268" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="k8s-control-title k8s-control-description">
+<title id="k8s-control-title">Kubernetes control plane and worker nodes</title>
+<desc id="k8s-control-description">An isometric Kubernetes control plane coordinating worker nodes, pods, storage, and cloud ingress.</desc>
+
+<defs>
+  <linearGradient id="k8s-control-surface-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFFFFF"/>
+    <stop offset="0.55" stop-color="#F4F7FB"/>
+    <stop offset="1" stop-color="#E0E7EF"/>
+  </linearGradient>
+  <linearGradient id="k8s-control-surface-left" x1="0" y1="0" x2="0.9" y2="1">
+    <stop stop-color="#E8EDF3"/>
+    <stop offset="1" stop-color="#C6CFD9"/>
+  </linearGradient>
+  <linearGradient id="k8s-control-surface-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#DDE4EC"/>
+    <stop offset="1" stop-color="#AEB8C4"/>
+  </linearGradient>
+  <linearGradient id="k8s-control-blue-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#D0E2FF"/>
+    <stop offset="0.46" stop-color="#78A9FF"/>
+    <stop offset="1" stop-color="#0F62FE"/>
+  </linearGradient>
+  <linearGradient id="k8s-control-blue-left" x1="0" y1="0" x2="0.8" y2="1">
+    <stop stop-color="#A6C8FF" stop-opacity="0.86"/>
+    <stop offset="1" stop-color="#4589FF" stop-opacity="0.58"/>
+  </linearGradient>
+  <linearGradient id="k8s-control-blue-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#4589FF" stop-opacity="0.86"/>
+    <stop offset="1" stop-color="#002D9C" stop-opacity="0.74"/>
+  </linearGradient>
+  <linearGradient id="k8s-control-cyan-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#D9FBFB"/>
+    <stop offset="0.45" stop-color="#3DDBD9"/>
+    <stop offset="1" stop-color="#08BDBA"/>
+  </linearGradient>
+  <linearGradient id="k8s-control-cyan-left" x1="0" y1="0" x2="0.8" y2="1">
+    <stop stop-color="#9EF0F0" stop-opacity="0.88"/>
+    <stop offset="1" stop-color="#08BDBA" stop-opacity="0.62"/>
+  </linearGradient>
+  <linearGradient id="k8s-control-cyan-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#08BDBA" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#005D5D" stop-opacity="0.76"/>
+  </linearGradient>
+  <linearGradient id="k8s-control-purple-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#E8DAFF"/>
+    <stop offset="0.52" stop-color="#A56EFF"/>
+    <stop offset="1" stop-color="#6929C4"/>
+  </linearGradient>
+  <linearGradient id="k8s-control-purple-left" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#D4BBFF" stop-opacity="0.88"/>
+    <stop offset="1" stop-color="#8A3FFC" stop-opacity="0.62"/>
+  </linearGradient>
+  <linearGradient id="k8s-control-purple-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#8A3FFC" stop-opacity="0.88"/>
+    <stop offset="1" stop-color="#491D8B" stop-opacity="0.76"/>
+  </linearGradient>
+  <linearGradient id="k8s-control-green-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#DEFBE6"/>
+    <stop offset="0.5" stop-color="#42BE65"/>
+    <stop offset="1" stop-color="#198038"/>
+  </linearGradient>
+  <linearGradient id="k8s-control-green-left" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#A7F0BA" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#24A148" stop-opacity="0.62"/>
+  </linearGradient>
+  <linearGradient id="k8s-control-green-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#24A148" stop-opacity="0.88"/>
+    <stop offset="1" stop-color="#0E6027" stop-opacity="0.76"/>
+  </linearGradient>
+  <linearGradient id="k8s-control-orange-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFF2E8"/>
+    <stop offset="0.52" stop-color="#FF832B"/>
+    <stop offset="1" stop-color="#BA4E00"/>
+  </linearGradient>
+  <linearGradient id="k8s-control-orange-left" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFD9BE" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#FF832B" stop-opacity="0.62"/>
+  </linearGradient>
+  <linearGradient id="k8s-control-orange-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FF832B" stop-opacity="0.88"/>
+    <stop offset="1" stop-color="#8A3800" stop-opacity="0.78"/>
+  </linearGradient>
+  <linearGradient id="k8s-control-glass-blue" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFFFFF" stop-opacity="0.92"/>
+    <stop offset="0.45" stop-color="#D0E2FF" stop-opacity="0.78"/>
+    <stop offset="1" stop-color="#78A9FF" stop-opacity="0.48"/>
+  </linearGradient>
+  <linearGradient id="k8s-control-glass-cyan" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFFFFF" stop-opacity="0.94"/>
+    <stop offset="0.5" stop-color="#D9FBFB" stop-opacity="0.78"/>
+    <stop offset="1" stop-color="#3DDBD9" stop-opacity="0.48"/>
+  </linearGradient>
+  <linearGradient id="k8s-control-network" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#0F62FE"/>
+    <stop offset="0.48" stop-color="#8A3FFC"/>
+    <stop offset="1" stop-color="#08BDBA"/>
+  </linearGradient>
+  <linearGradient id="k8s-control-cloud" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#EDF5FF"/>
+    <stop offset="0.52" stop-color="#A6C8FF"/>
+    <stop offset="1" stop-color="#3DDBD9"/>
+  </linearGradient>
+  <radialGradient id="k8s-control-halo" cx="0" cy="0" r="1" gradientTransform="translate(248 132) rotate(90) scale(126 218)" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#D0E2FF" stop-opacity="0.42"/>
+    <stop offset="0.58" stop-color="#D9FBFB" stop-opacity="0.12"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="k8s-control-shadow" x="-30%" y="-60%" width="160%" height="220%" color-interpolation-filters="sRGB">
+    <feGaussianBlur stdDeviation="5"/>
+  </filter>
+  <filter id="k8s-control-soft-shadow" x="-50%" y="-80%" width="200%" height="260%" color-interpolation-filters="sRGB">
+    <feDropShadow dx="0" dy="3" stdDeviation="2.4" flood-color="#525252" flood-opacity="0.18"/>
+  </filter>
+  <filter id="k8s-control-glow" x="-120%" y="-120%" width="340%" height="340%" color-interpolation-filters="sRGB">
+    <feGaussianBlur stdDeviation="3.2" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <marker id="k8s-control-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth">
+    <path d="M0 0L8 4L0 8L2.2 4Z" fill="#0F62FE"/>
+  </marker>
+</defs>
+<rect width="496" height="268" fill="url(#k8s-control-halo)"/>
+
+<path d="M48 208L150 149L248 199L351 139L449 196" stroke="url(#k8s-control-network)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M248 72V199M150 111V149M351 102V139" stroke="#0F62FE" stroke-width="1.1" stroke-dasharray="3 4"/>
+<g opacity="1">
+  <polygon points="248,179.16 361.74,217 248,254.84 134.26,217" fill="#6F6F6F" opacity="0.16" filter="url(#k8s-control-shadow)"/>
+  <polygon points="127,199 248,243 248,255 127,211" fill="url(#k8s-control-surface-left)"/>
+  <polygon points="248,243 369,199 369,211 248,255" fill="url(#k8s-control-surface-right)"/>
+  <polygon points="248,155 369,199 248,243 127,199" fill="url(#k8s-control-surface-top)" stroke="#DDE4EC" stroke-width="0.7"/>
+</g>
+<path d="M212 160L297 203" stroke="#A6C8FF" stroke-opacity="0.26" stroke-width="0.7"/>
+<path d="M236 160L321 203" stroke="#A6C8FF" stroke-opacity="0.26" stroke-width="0.7"/>
+<path d="M260 160L345 203" stroke="#A6C8FF" stroke-opacity="0.26" stroke-width="0.7"/>
+<path d="M284 160L369 203" stroke="#A6C8FF" stroke-opacity="0.26" stroke-width="0.7"/>
+<path d="M180 185L248 151L316 185L248 219Z" fill="#D0E2FF" fill-opacity="0.22" stroke="#78A9FF" stroke-opacity="0.38" stroke-width="0.7"/>
+<g opacity="0.98">
+  <polygon points="81,204.78 133.64,228 81,251.22 28.36,228" fill="#6F6F6F" opacity="0.16" filter="url(#k8s-control-shadow)"/>
+  <polygon points="25,213 81,240 81,249 25,222" fill="url(#k8s-control-surface-left)"/>
+  <polygon points="81,240 137,213 137,222 81,249" fill="url(#k8s-control-surface-right)"/>
+  <polygon points="81,186 137,213 81,240 25,213" fill="url(#k8s-control-surface-top)" stroke="#DDE4EC" stroke-width="0.7"/>
+</g>
+<g opacity="0.98">
+  <polygon points="415,198.78 467.64,222 415,245.22 362.36,222" fill="#6F6F6F" opacity="0.16" filter="url(#k8s-control-shadow)"/>
+  <polygon points="359,207 415,234 415,243 359,216" fill="url(#k8s-control-surface-left)"/>
+  <polygon points="415,234 471,207 471,216 415,243" fill="url(#k8s-control-surface-right)"/>
+  <polygon points="415,180 471,207 415,234 359,207" fill="url(#k8s-control-surface-top)" stroke="#DDE4EC" stroke-width="0.7"/>
+</g>
+<g opacity="0.9">
+  <polygon points="207,126 248,150 248,211 207,187" fill="url(#k8s-control-blue-left)" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="0.5"/>
+  <polygon points="248,150 289,126 289,187 248,211" fill="url(#k8s-control-blue-right)" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="0.5"/>
+  <polygon points="248,102 289,126 248,150 207,126" fill="url(#k8s-control-blue-top)" stroke="#FFFFFF" stroke-opacity="0.62" stroke-width="0.6"/>
+</g>
+<path d="M213 147L248 166L283 147" stroke="#FFFFFF" stroke-opacity="0.66" stroke-width="0.8"/>
+<g filter="url(#k8s-control-soft-shadow)">
+  <polygon points="248,95 265.98,103.66 270.42,123.12 257.98,138.72 238.02,138.72 225.58,123.12 230.02,103.66" fill="url(#k8s-control-glass-blue)" stroke="#0F62FE" stroke-width="1.1"/>
+  <circle cx="248" cy="118" r="16.79" fill="#FFFFFF" fill-opacity="0.86" stroke="#0F62FE" stroke-width="1"/>
+  <path d="M248 111.56L248 102.36" stroke="#0F62FE" stroke-width="1.72" stroke-linecap="round"/>
+  <path d="M253.03 113.98L260.23 108.25" stroke="#0F62FE" stroke-width="1.72" stroke-linecap="round"/>
+  <path d="M254.28 119.43L263.25 121.48" stroke="#0F62FE" stroke-width="1.72" stroke-linecap="round"/>
+  <path d="M250.79 123.8L254.79 132.09" stroke="#0F62FE" stroke-width="1.72" stroke-linecap="round"/>
+  <path d="M245.21 123.8L241.21 132.09" stroke="#0F62FE" stroke-width="1.72" stroke-linecap="round"/>
+  <path d="M241.72 119.43L232.75 121.48" stroke="#0F62FE" stroke-width="1.72" stroke-linecap="round"/>
+  <path d="M242.97 113.98L235.77 108.25" stroke="#0F62FE" stroke-width="1.72" stroke-linecap="round"/>
+  <circle cx="248" cy="118" r="5.52" fill="#0F62FE"/>
+  <circle cx="248" cy="118" r="2.3" fill="#FFFFFF"/>
+  <circle cx="248" cy="102.36" r="2.42" fill="#FFFFFF" stroke="#0F62FE" stroke-width="1.26"/>
+  <circle cx="260.23" cy="108.25" r="2.42" fill="#FFFFFF" stroke="#0F62FE" stroke-width="1.26"/>
+  <circle cx="263.25" cy="121.48" r="2.42" fill="#FFFFFF" stroke="#0F62FE" stroke-width="1.26"/>
+  <circle cx="254.79" cy="132.09" r="2.42" fill="#FFFFFF" stroke="#0F62FE" stroke-width="1.26"/>
+  <circle cx="241.21" cy="132.09" r="2.42" fill="#FFFFFF" stroke="#0F62FE" stroke-width="1.26"/>
+  <circle cx="232.75" cy="121.48" r="2.42" fill="#FFFFFF" stroke="#0F62FE" stroke-width="1.26"/>
+  <circle cx="235.77" cy="108.25" r="2.42" fill="#FFFFFF" stroke="#0F62FE" stroke-width="1.26"/>
+</g>
+<g><g opacity="1">
+  <polygon points="64,165 81,174.52 81,223.52 64,214" fill="url(#k8s-control-cyan-left)" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="0.5"/>
+  <polygon points="81,174.52 98,165 98,214 81,223.52" fill="url(#k8s-control-cyan-right)" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="0.5"/>
+  <polygon points="81,155.48 98,165 81,174.52 64,165" fill="url(#k8s-control-cyan-top)" stroke="#FFFFFF" stroke-opacity="0.62" stroke-width="0.6"/>
+</g><path d="M68 185.24L80 192.24" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="1"/>
+      <circle cx="70" cy="187.74" r="1.25" fill="#3DDBD9"/>
+<path d="M68 195.53L80 202.53" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="1"/>
+      <circle cx="70" cy="198.03" r="1.25" fill="#3DDBD9"/>
+<path d="M68 205.82L80 212.82" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="1"/>
+      <circle cx="70" cy="208.32" r="1.25" fill="#3DDBD9"/></g>
+<g><g opacity="1">
+  <polygon points="398,159 415,168.52 415,217.52 398,208" fill="url(#k8s-control-purple-left)" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="0.5"/>
+  <polygon points="415,168.52 432,159 432,208 415,217.52" fill="url(#k8s-control-purple-right)" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="0.5"/>
+  <polygon points="415,149.48 432,159 415,168.52 398,159" fill="url(#k8s-control-purple-top)" stroke="#FFFFFF" stroke-opacity="0.62" stroke-width="0.6"/>
+</g><path d="M402 179.24L414 186.24" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="1"/>
+      <circle cx="404" cy="181.74" r="1.25" fill="#3DDBD9"/>
+<path d="M402 189.53L414 196.53" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="1"/>
+      <circle cx="404" cy="192.03" r="1.25" fill="#3DDBD9"/>
+<path d="M402 199.82L414 206.82" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="1"/>
+      <circle cx="404" cy="202.32" r="1.25" fill="#3DDBD9"/></g>
+<g>
+<g opacity="1">
+  <polygon points="45.21,210 53,214.51 53,225.99 45.21,221.48" fill="url(#k8s-control-blue-left)" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="0.5"/>
+  <polygon points="53,214.51 60.79,210 60.79,221.48 53,225.99" fill="url(#k8s-control-blue-right)" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="0.5"/>
+  <polygon points="53,205.49 60.79,210 53,214.51 45.21,210" fill="url(#k8s-control-blue-top)" stroke="#FFFFFF" stroke-opacity="0.62" stroke-width="0.6"/>
+</g>
+  <circle cx="56.74" cy="216.52" r="1.27" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/>
+  <path d="M49.57 218.44L52.69 220.81" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.66" stroke-linecap="round"/>
+</g>
+<g>
+<g opacity="1">
+  <polygon points="70.21,223 78,227.51 78,238.99 70.21,234.48" fill="url(#k8s-control-cyan-left)" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="0.5"/>
+  <polygon points="78,227.51 85.79,223 85.79,234.48 78,238.99" fill="url(#k8s-control-cyan-right)" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="0.5"/>
+  <polygon points="78,218.49 85.79,223 78,227.51 70.21,223" fill="url(#k8s-control-cyan-top)" stroke="#FFFFFF" stroke-opacity="0.62" stroke-width="0.6"/>
+</g>
+  <circle cx="81.74" cy="229.52" r="1.27" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/>
+  <path d="M74.57 231.44L77.69 233.81" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.66" stroke-linecap="round"/>
+</g>
+<g>
+<g opacity="1">
+  <polygon points="96.21,210 104,214.51 104,225.99 96.21,221.48" fill="url(#k8s-control-blue-left)" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="0.5"/>
+  <polygon points="104,214.51 111.79,210 111.79,221.48 104,225.99" fill="url(#k8s-control-blue-right)" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="0.5"/>
+  <polygon points="104,205.49 111.79,210 104,214.51 96.21,210" fill="url(#k8s-control-blue-top)" stroke="#FFFFFF" stroke-opacity="0.62" stroke-width="0.6"/>
+</g>
+  <circle cx="107.74" cy="216.52" r="1.27" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/>
+  <path d="M100.57 218.44L103.69 220.81" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.66" stroke-linecap="round"/>
+</g>
+<g>
+<g opacity="1">
+  <polygon points="379.21,204 387,208.51 387,219.99 379.21,215.48" fill="url(#k8s-control-purple-left)" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="0.5"/>
+  <polygon points="387,208.51 394.79,204 394.79,215.48 387,219.99" fill="url(#k8s-control-purple-right)" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="0.5"/>
+  <polygon points="387,199.49 394.79,204 387,208.51 379.21,204" fill="url(#k8s-control-purple-top)" stroke="#FFFFFF" stroke-opacity="0.62" stroke-width="0.6"/>
+</g>
+  <circle cx="390.74" cy="210.52" r="1.27" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/>
+  <path d="M383.57 212.44L386.69 214.81" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.66" stroke-linecap="round"/>
+</g>
+<g>
+<g opacity="1">
+  <polygon points="405.21,218 413,222.51 413,233.99 405.21,229.48" fill="url(#k8s-control-cyan-left)" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="0.5"/>
+  <polygon points="413,222.51 420.79,218 420.79,229.48 413,233.99" fill="url(#k8s-control-cyan-right)" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="0.5"/>
+  <polygon points="413,213.49 420.79,218 413,222.51 405.21,218" fill="url(#k8s-control-cyan-top)" stroke="#FFFFFF" stroke-opacity="0.62" stroke-width="0.6"/>
+</g>
+  <circle cx="416.74" cy="224.52" r="1.27" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/>
+  <path d="M409.57 226.44L412.69 228.81" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.66" stroke-linecap="round"/>
+</g>
+<g>
+<g opacity="1">
+  <polygon points="432.21,204 440,208.51 440,219.99 432.21,215.48" fill="url(#k8s-control-purple-left)" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="0.5"/>
+  <polygon points="440,208.51 447.79,204 447.79,215.48 440,219.99" fill="url(#k8s-control-purple-right)" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="0.5"/>
+  <polygon points="440,199.49 447.79,204 440,208.51 432.21,204" fill="url(#k8s-control-purple-top)" stroke="#FFFFFF" stroke-opacity="0.62" stroke-width="0.6"/>
+</g>
+  <circle cx="443.74" cy="210.52" r="1.27" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/>
+  <path d="M436.57 212.44L439.69 214.81" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.66" stroke-linecap="round"/>
+</g>
+<g opacity="0.92" filter="url(#k8s-control-soft-shadow)">
+  <circle cx="371" cy="56.88" r="16.56" fill="url(#k8s-control-cloud)"/>
+  <circle cx="390.44" cy="48.96" r="21.6" fill="url(#k8s-control-cloud)"/>
+  <circle cx="411.32" cy="59.04" r="14.4" fill="url(#k8s-control-cloud)"/>
+  <ellipse cx="389.72" cy="66.24" rx="34.56" ry="14.4" fill="url(#k8s-control-cloud)"/>
+</g>
+<path d="M389 82V112L351 133" stroke="#08BDBA" stroke-width="1.2" stroke-linecap="round"/>
+<g transform="translate(121 45)"><g filter="url(#k8s-control-soft-shadow)">
+  <polygon points="0,-16 12.51,-9.98 15.6,3.56 6.94,14.42 -6.94,14.42 -15.6,3.56 -12.51,-9.98" fill="url(#k8s-control-blue-top)" stroke="#FFFFFF" stroke-width="1.1"/>
+  <circle cx="0" cy="0" r="11.68" fill="#FFFFFF" fill-opacity="0.86" stroke="#FFFFFF" stroke-width="1"/>
+  <path d="M0 -4.48L0 -10.88" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M3.5 -2.79L8.51 -6.78" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M4.37 1L10.61 2.42" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M1.94 4.04L4.72 9.8" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M-1.94 4.04L-4.72 9.8" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M-4.37 1L-10.61 2.42" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M-3.5 -2.79L-8.51 -6.78" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round"/>
+  <circle cx="0" cy="0" r="3.84" fill="#FFFFFF"/>
+  <circle cx="0" cy="0" r="1.6" fill="#FFFFFF"/>
+  <circle cx="0" cy="-10.88" r="1.68" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.88"/>
+  <circle cx="8.51" cy="-6.78" r="1.68" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.88"/>
+  <circle cx="10.61" cy="2.42" r="1.68" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.88"/>
+  <circle cx="4.72" cy="9.8" r="1.68" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.88"/>
+  <circle cx="-4.72" cy="9.8" r="1.68" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.88"/>
+  <circle cx="-10.61" cy="2.42" r="1.68" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.88"/>
+  <circle cx="-8.51" cy="-6.78" r="1.68" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.88"/>
+</g></g>
+<path d="M121 62V95L150 111" stroke="#0F62FE" stroke-width="1.1"/>
+<circle cx="48" cy="208" r="3.2" fill="#08BDBA" stroke="#FFFFFF" stroke-width="1.2"/><circle cx="150" cy="149" r="3.2" fill="#0F62FE" stroke="#FFFFFF" stroke-width="1.2"/><circle cx="248" cy="199" r="3.2" fill="#8A3FFC" stroke="#FFFFFF" stroke-width="1.2"/><circle cx="351" cy="139" r="3.2" fill="#08BDBA" stroke="#FFFFFF" stroke-width="1.2"/><circle cx="449" cy="196" r="3.2" fill="#0F62FE" stroke="#FFFFFF" stroke-width="1.2"/>
+<circle cx="248" cy="72" r="4.5" fill="#FFFFFF" stroke="#0F62FE" stroke-width="1.2"/>
+<circle cx="248" cy="72" r="1.7" fill="#0F62FE"/>
+
+</svg>

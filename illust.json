@@ -770,6 +770,35 @@
     ]
   },
   {
+    "name": "K8s Autoscaling Header",
+    "shortname": "k8s-autoscaling-header",
+    "url": "",
+    "collection": "simple",
+    "source": "custom",
+    "files": [
+      {
+        "filename": "k8s-autoscaling-header.svg",
+        "variant": "default"
+      },
+      {
+        "filename": "k8s-autoscaling-header-2.svg",
+        "variant": "default"
+      },
+      {
+        "filename": "k8s-autoscaling-header-3.svg",
+        "variant": "default"
+      },
+      {
+        "filename": "k8s-autoscaling-header-4.svg",
+        "variant": "default"
+      },
+      {
+        "filename": "k8s-autoscaling-header-5.svg",
+        "variant": "default"
+      }
+    ]
+  },
+  {
     "name": "Level Up",
     "shortname": "level-up-fenw",
     "url": "https://undraw.co/search/level-up_fenw",
