@@ -1,0 +1,198 @@
+<svg width="496" height="268" viewBox="0 0 496 268" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ceph-rados-title ceph-rados-description">
+<title id="ceph-rados-title">Ceph RADOS object distribution</title>
+<desc id="ceph-rados-description">Objects are divided into placement groups and distributed across independent Ceph OSD devices.</desc>
+<defs>
+  <linearGradient id="ceph-rados-surface-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFFFFF"/><stop offset="0.55" stop-color="#F4F7FB"/><stop offset="1" stop-color="#E0E7EF"/>
+  </linearGradient>
+  <linearGradient id="ceph-rados-surface-left" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#E8EDF3"/><stop offset="1" stop-color="#C6CFD9"/>
+  </linearGradient>
+  <linearGradient id="ceph-rados-surface-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#DDE4EC"/><stop offset="1" stop-color="#AEB8C4"/>
+  </linearGradient>
+  
+  <linearGradient id="ceph-rados-blue-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#D0E2FF"/><stop offset="0.5" stop-color="#78A9FF"/><stop offset="1" stop-color="#0F62FE"/>
+  </linearGradient>
+  <linearGradient id="ceph-rados-blue-left" x1="0" y1="0" x2="0.8" y2="1">
+    <stop stop-color="#D0E2FF" stop-opacity="0.92"/><stop offset="1" stop-color="#78A9FF" stop-opacity="0.66"/>
+  </linearGradient>
+  <linearGradient id="ceph-rados-blue-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#78A9FF" stop-opacity="0.9"/><stop offset="1" stop-color="#0F62FE" stop-opacity="0.78"/>
+  </linearGradient>
+  
+  <linearGradient id="ceph-rados-cyan-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#D9FBFB"/><stop offset="0.5" stop-color="#3DDBD9"/><stop offset="1" stop-color="#007D79"/>
+  </linearGradient>
+  <linearGradient id="ceph-rados-cyan-left" x1="0" y1="0" x2="0.8" y2="1">
+    <stop stop-color="#D9FBFB" stop-opacity="0.92"/><stop offset="1" stop-color="#3DDBD9" stop-opacity="0.66"/>
+  </linearGradient>
+  <linearGradient id="ceph-rados-cyan-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#3DDBD9" stop-opacity="0.9"/><stop offset="1" stop-color="#007D79" stop-opacity="0.78"/>
+  </linearGradient>
+  
+  <linearGradient id="ceph-rados-purple-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#E8DAFF"/><stop offset="0.5" stop-color="#A56EFF"/><stop offset="1" stop-color="#6929C4"/>
+  </linearGradient>
+  <linearGradient id="ceph-rados-purple-left" x1="0" y1="0" x2="0.8" y2="1">
+    <stop stop-color="#E8DAFF" stop-opacity="0.92"/><stop offset="1" stop-color="#A56EFF" stop-opacity="0.66"/>
+  </linearGradient>
+  <linearGradient id="ceph-rados-purple-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#A56EFF" stop-opacity="0.9"/><stop offset="1" stop-color="#6929C4" stop-opacity="0.78"/>
+  </linearGradient>
+  
+  <linearGradient id="ceph-rados-red-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFF1F1"/><stop offset="0.5" stop-color="#FA4D56"/><stop offset="1" stop-color="#A2191F"/>
+  </linearGradient>
+  <linearGradient id="ceph-rados-red-left" x1="0" y1="0" x2="0.8" y2="1">
+    <stop stop-color="#FFF1F1" stop-opacity="0.92"/><stop offset="1" stop-color="#FA4D56" stop-opacity="0.66"/>
+  </linearGradient>
+  <linearGradient id="ceph-rados-red-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FA4D56" stop-opacity="0.9"/><stop offset="1" stop-color="#A2191F" stop-opacity="0.78"/>
+  </linearGradient>
+  
+  <linearGradient id="ceph-rados-orange-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFF2E8"/><stop offset="0.5" stop-color="#FF832B"/><stop offset="1" stop-color="#8A3800"/>
+  </linearGradient>
+  <linearGradient id="ceph-rados-orange-left" x1="0" y1="0" x2="0.8" y2="1">
+    <stop stop-color="#FFF2E8" stop-opacity="0.92"/><stop offset="1" stop-color="#FF832B" stop-opacity="0.66"/>
+  </linearGradient>
+  <linearGradient id="ceph-rados-orange-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FF832B" stop-opacity="0.9"/><stop offset="1" stop-color="#8A3800" stop-opacity="0.78"/>
+  </linearGradient>
+  
+  <linearGradient id="ceph-rados-green-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#DEFBE6"/><stop offset="0.5" stop-color="#42BE65"/><stop offset="1" stop-color="#0E6027"/>
+  </linearGradient>
+  <linearGradient id="ceph-rados-green-left" x1="0" y1="0" x2="0.8" y2="1">
+    <stop stop-color="#DEFBE6" stop-opacity="0.92"/><stop offset="1" stop-color="#42BE65" stop-opacity="0.66"/>
+  </linearGradient>
+  <linearGradient id="ceph-rados-green-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#42BE65" stop-opacity="0.9"/><stop offset="1" stop-color="#0E6027" stop-opacity="0.78"/>
+  </linearGradient>
+  <linearGradient id="ceph-rados-glass-blue" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFFFFF" stop-opacity="0.94"/><stop offset="0.5" stop-color="#D0E2FF" stop-opacity="0.76"/><stop offset="1" stop-color="#78A9FF" stop-opacity="0.46"/>
+  </linearGradient>
+  <linearGradient id="ceph-rados-glass-cyan" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFFFFF" stop-opacity="0.94"/><stop offset="0.5" stop-color="#D9FBFB" stop-opacity="0.78"/><stop offset="1" stop-color="#3DDBD9" stop-opacity="0.46"/>
+  </linearGradient>
+  <linearGradient id="ceph-rados-glass-red" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFFFFF" stop-opacity="0.94"/><stop offset="0.5" stop-color="#FFD7D9" stop-opacity="0.8"/><stop offset="1" stop-color="#FA4D56" stop-opacity="0.42"/>
+  </linearGradient>
+  <linearGradient id="ceph-rados-network" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#0F62FE"/><stop offset="0.5" stop-color="#FA4D56"/><stop offset="1" stop-color="#08BDBA"/>
+  </linearGradient>
+  <radialGradient id="ceph-rados-halo" cx="0" cy="0" r="1" gradientTransform="translate(248 136) rotate(90) scale(126 218)" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#D0E2FF" stop-opacity="0.38"/><stop offset="0.55" stop-color="#D9FBFB" stop-opacity="0.13"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="ceph-rados-shadow" x="-35%" y="-70%" width="170%" height="240%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="5"/></filter>
+  <filter id="ceph-rados-soft-shadow" x="-60%" y="-80%" width="220%" height="260%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="3" stdDeviation="2.5" flood-color="#525252" flood-opacity="0.18"/></filter>
+  <marker id="ceph-rados-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0 0L8 4L0 8L2.2 4Z" fill="#0F62FE"/></marker>
+  <marker id="ceph-rados-arrow-cyan" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0 0L8 4L0 8L2.2 4Z" fill="#08BDBA"/></marker>
+</defs>
+<rect width="496" height="268" fill="url(#ceph-rados-halo)"/>
+
+<g opacity="1">
+  <polygon points="248,187.58 433.18,228 248,268.42 62.82,228" fill="#6F6F6F" opacity="0.15" filter="url(#ceph-rados-shadow)"/>
+  <polygon points="51,211 248,258 248,269 51,222" fill="url(#ceph-rados-surface-left)"/>
+  <polygon points="248,258 445,211 445,222 248,269" fill="url(#ceph-rados-surface-right)"/>
+  <polygon points="248,164 445,211 248,258 51,211" fill="url(#ceph-rados-surface-top)" stroke="#DDE4EC" stroke-width="0.7"/>
+</g>
+<g>
+<g opacity="0.94">
+  <path d="M87.15 185C87.15 190.78 122.85 190.78 122.85 185V203.9C122.85 209.68 87.15 209.68 87.15 203.9Z" fill="url(#ceph-rados-blue-left)" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="0.7"/>
+  <ellipse cx="105" cy="185" rx="17.85" ry="5.775" fill="url(#ceph-rados-blue-top)" stroke="#FFFFFF" stroke-opacity="0.72" stroke-width="0.8"/>
+  <ellipse cx="105" cy="203.9" rx="17.85" ry="5.775" fill="none" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.7"/>
+</g>
+  <circle cx="114.45" cy="197.6" r="2.1" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/>
+  <path d="M97.65 194.45H108.15" stroke="#FFFFFF" stroke-width="0.84" stroke-linecap="round"/>
+</g><circle cx="105" cy="166" r="2.7" fill="#0F62FE" stroke="#FFFFFF" stroke-width="1.1"/>
+<g>
+<g opacity="0.94">
+  <path d="M157.15 197C157.15 202.78 192.85 202.78 192.85 197V215.9C192.85 221.68 157.15 221.68 157.15 215.9Z" fill="url(#ceph-rados-cyan-left)" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="0.7"/>
+  <ellipse cx="175" cy="197" rx="17.85" ry="5.775" fill="url(#ceph-rados-cyan-top)" stroke="#FFFFFF" stroke-opacity="0.72" stroke-width="0.8"/>
+  <ellipse cx="175" cy="215.9" rx="17.85" ry="5.775" fill="none" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.7"/>
+</g>
+  <circle cx="184.45" cy="209.6" r="2.1" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/>
+  <path d="M167.65 206.45H178.15" stroke="#FFFFFF" stroke-width="0.84" stroke-linecap="round"/>
+</g><circle cx="175" cy="178" r="2.7" fill="#08BDBA" stroke="#FFFFFF" stroke-width="1.1"/>
+<g>
+<g opacity="0.94">
+  <path d="M227.15 185C227.15 190.78 262.85 190.78 262.85 185V203.9C262.85 209.68 227.15 209.68 227.15 203.9Z" fill="url(#ceph-rados-purple-left)" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="0.7"/>
+  <ellipse cx="245" cy="185" rx="17.85" ry="5.775" fill="url(#ceph-rados-purple-top)" stroke="#FFFFFF" stroke-opacity="0.72" stroke-width="0.8"/>
+  <ellipse cx="245" cy="203.9" rx="17.85" ry="5.775" fill="none" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.7"/>
+</g>
+  <circle cx="254.45" cy="197.6" r="2.1" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/>
+  <path d="M237.65 194.45H248.15" stroke="#FFFFFF" stroke-width="0.84" stroke-linecap="round"/>
+</g><circle cx="245" cy="166" r="2.7" fill="#8A3FFC" stroke="#FFFFFF" stroke-width="1.1"/>
+<g>
+<g opacity="0.94">
+  <path d="M297.15 197C297.15 202.78 332.85 202.78 332.85 197V215.9C332.85 221.68 297.15 221.68 297.15 215.9Z" fill="url(#ceph-rados-red-left)" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="0.7"/>
+  <ellipse cx="315" cy="197" rx="17.85" ry="5.775" fill="url(#ceph-rados-red-top)" stroke="#FFFFFF" stroke-opacity="0.72" stroke-width="0.8"/>
+  <ellipse cx="315" cy="215.9" rx="17.85" ry="5.775" fill="none" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.7"/>
+</g>
+  <circle cx="324.45" cy="209.6" r="2.1" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/>
+  <path d="M307.65 206.45H318.15" stroke="#FFFFFF" stroke-width="0.84" stroke-linecap="round"/>
+</g><circle cx="315" cy="178" r="2.7" fill="#FA4D56" stroke="#FFFFFF" stroke-width="1.1"/>
+<g>
+<g opacity="0.94">
+  <path d="M367.15 185C367.15 190.78 402.85 190.78 402.85 185V203.9C402.85 209.68 367.15 209.68 367.15 203.9Z" fill="url(#ceph-rados-green-left)" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="0.7"/>
+  <ellipse cx="385" cy="185" rx="17.85" ry="5.775" fill="url(#ceph-rados-green-top)" stroke="#FFFFFF" stroke-opacity="0.72" stroke-width="0.8"/>
+  <ellipse cx="385" cy="203.9" rx="17.85" ry="5.775" fill="none" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.7"/>
+</g>
+  <circle cx="394.45" cy="197.6" r="2.1" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/>
+  <path d="M377.65 194.45H388.15" stroke="#FFFFFF" stroke-width="0.84" stroke-linecap="round"/>
+</g><circle cx="385" cy="166" r="2.7" fill="#42BE65" stroke="#FFFFFF" stroke-width="1.1"/>
+<g>
+<g opacity="0.9">
+  <polygon points="62.12,80 74,87.02 74,104.3 62.12,97.28" fill="url(#ceph-rados-red-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="74,87.02 85.88,80 85.88,97.28 74,104.3" fill="url(#ceph-rados-red-right)" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="0.55"/>
+  <polygon points="74,72.98 85.88,80 74,87.02 62.12,80" fill="url(#ceph-rados-red-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g>
+  <circle cx="79.23" cy="90.65" r="1.73" fill="#FFFFFF" fill-opacity="0.92"/>
+  <path d="M68.3 92.87L73.29 96.01" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="0.86"/>
+  <circle cx="74" cy="78.6" r="1.84" fill="#FFFFFF" fill-opacity="0.8"/>
+</g><g>
+<g opacity="0.9">
+  <polygon points="94.12,96 106,103.02 106,120.3 94.12,113.28" fill="url(#ceph-rados-orange-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="106,103.02 117.88,96 117.88,113.28 106,120.3" fill="url(#ceph-rados-orange-right)" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="0.55"/>
+  <polygon points="106,88.98 117.88,96 106,103.02 94.12,96" fill="url(#ceph-rados-orange-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g>
+  <circle cx="111.23" cy="106.65" r="1.73" fill="#FFFFFF" fill-opacity="0.92"/>
+  <path d="M100.3 108.87L105.29 112.01" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="0.86"/>
+  <circle cx="106" cy="94.6" r="1.84" fill="#FFFFFF" fill-opacity="0.8"/>
+</g><g>
+<g opacity="0.9">
+  <polygon points="126.12,80 138,87.02 138,104.3 126.12,97.28" fill="url(#ceph-rados-purple-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="138,87.02 149.88,80 149.88,97.28 138,104.3" fill="url(#ceph-rados-purple-right)" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="0.55"/>
+  <polygon points="138,72.98 149.88,80 138,87.02 126.12,80" fill="url(#ceph-rados-purple-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g>
+  <circle cx="143.23" cy="90.65" r="1.73" fill="#FFFFFF" fill-opacity="0.92"/>
+  <path d="M132.3 92.87L137.29 96.01" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="0.86"/>
+  <circle cx="138" cy="78.6" r="1.84" fill="#FFFFFF" fill-opacity="0.8"/>
+</g>
+<path d="M105 112C110 133 112 145 105 165M106 112C135 133 156 145 175 177M106 112C171 126 211 141 245 165M106 112C243 119 290 135 315 177M106 112C314 118 361 136 385 165" stroke="url(#ceph-rados-network)" stroke-width="1.15" stroke-dasharray="4 4"/>
+<g transform="translate(248 66)"><g filter="url(#ceph-rados-soft-shadow)">
+  <circle cx="0" cy="0" r="23" fill="url(#ceph-rados-glass-red)" stroke="#FA4D56" stroke-width="1.2"/>
+  <circle cx="0" cy="0" r="17.48" fill="#FFFFFF" fill-opacity="0.76" stroke="#FA4D56" stroke-opacity="0.7" stroke-width="0.8"/>
+  <path d="M0 0L0 -15.18" stroke="#FA4D56" stroke-width="1.26" stroke-linecap="round"/>
+  <path d="M0 0L13.15 -7.59" stroke="#FA4D56" stroke-width="1.26" stroke-linecap="round"/>
+  <path d="M0 0L13.15 7.59" stroke="#FA4D56" stroke-width="1.26" stroke-linecap="round"/>
+  <path d="M0 0L0 15.18" stroke="#FA4D56" stroke-width="1.26" stroke-linecap="round"/>
+  <path d="M0 0L-13.15 7.59" stroke="#FA4D56" stroke-width="1.26" stroke-linecap="round"/>
+  <path d="M0 0L-13.15 -7.59" stroke="#FA4D56" stroke-width="1.26" stroke-linecap="round"/>
+  <circle cx="0" cy="0" r="5.75" fill="#FA4D56"/>
+  <circle cx="0" cy="0" r="2.3" fill="#FFFFFF"/>
+  <circle cx="0" cy="-15.18" r="2.65" fill="#FFFFFF" stroke="#FA4D56" stroke-width="1.26"/>
+  <circle cx="13.15" cy="-7.59" r="2.65" fill="#FFFFFF" stroke="#FA4D56" stroke-width="1.26"/>
+  <circle cx="13.15" cy="7.59" r="2.65" fill="#FFFFFF" stroke="#FA4D56" stroke-width="1.26"/>
+  <circle cx="0" cy="15.18" r="2.65" fill="#FFFFFF" stroke="#FA4D56" stroke-width="1.26"/>
+  <circle cx="-13.15" cy="7.59" r="2.65" fill="#FFFFFF" stroke="#FA4D56" stroke-width="1.26"/>
+  <circle cx="-13.15" cy="-7.59" r="2.65" fill="#FFFFFF" stroke="#FA4D56" stroke-width="1.26"/>
+</g></g>
+<path d="M248 90V125" stroke="#FA4D56" stroke-width="1.1"/>
+<ellipse cx="248" cy="132" rx="81" ry="25" fill="url(#ceph-rados-glass-blue)" stroke="#0F62FE" stroke-width="1" stroke-dasharray="4 4"/>
+<circle cx="206" cy="127" r="7" fill="#0F62FE" fill-opacity="0.8"/><circle cx="235" cy="141" r="7" fill="#08BDBA" fill-opacity="0.8"/><circle cx="267" cy="124" r="7" fill="#8A3FFC" fill-opacity="0.8"/><circle cx="294" cy="141" r="7" fill="#FA4D56" fill-opacity="0.8"/>
+
+</svg>

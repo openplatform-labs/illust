@@ -240,6 +240,55 @@
     ]
   },
   {
+    "name": "Ceph Architecture",
+    "shortname": "ceph-architecture",
+    "url": "",
+    "collection": "simple",
+    "source": "custom",
+    "files": [
+      {
+        "filename": "ceph-architecture.svg",
+        "variant": "default"
+      },
+      {
+        "filename": "ceph-architecture-2.svg",
+        "variant": "default"
+      },
+      {
+        "filename": "ceph-architecture-3.svg",
+        "variant": "default"
+      },
+      {
+        "filename": "ceph-architecture-4.svg",
+        "variant": "default"
+      },
+      {
+        "filename": "ceph-architecture-5.svg",
+        "variant": "default"
+      },
+      {
+        "filename": "ceph-architecture-6.svg",
+        "variant": "default"
+      },
+      {
+        "filename": "ceph-architecture-7.svg",
+        "variant": "default"
+      },
+      {
+        "filename": "ceph-architecture-8.svg",
+        "variant": "default"
+      },
+      {
+        "filename": "ceph-architecture-9.svg",
+        "variant": "default"
+      },
+      {
+        "filename": "ceph-architecture-10.svg",
+        "variant": "default"
+      }
+    ]
+  },
+  {
     "name": "Certification",
     "shortname": "certification-oqiz",
     "url": "https://undraw.co/search/certification_oqiz",
