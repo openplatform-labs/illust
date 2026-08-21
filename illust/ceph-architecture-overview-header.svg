@@ -1,0 +1,185 @@
+<svg width="496" height="268" viewBox="0 0 496 268" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ceph-architecture-title ceph-architecture-description">
+<title id="ceph-architecture-title">Ceph distributed storage architecture</title>
+<desc id="ceph-architecture-description">Ceph clients connect through monitors, managers, metadata services, gateways, and the shared RADOS storage core.</desc>
+<defs>
+  <linearGradient id="ceph-architecture-surface-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFFFFF"/><stop offset="0.55" stop-color="#F4F7FB"/><stop offset="1" stop-color="#E0E7EF"/>
+  </linearGradient>
+  <linearGradient id="ceph-architecture-surface-left" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#E8EDF3"/><stop offset="1" stop-color="#C6CFD9"/>
+  </linearGradient>
+  <linearGradient id="ceph-architecture-surface-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#DDE4EC"/><stop offset="1" stop-color="#AEB8C4"/>
+  </linearGradient>
+  
+  <linearGradient id="ceph-architecture-blue-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#D0E2FF"/><stop offset="0.5" stop-color="#78A9FF"/><stop offset="1" stop-color="#0F62FE"/>
+  </linearGradient>
+  <linearGradient id="ceph-architecture-blue-left" x1="0" y1="0" x2="0.8" y2="1">
+    <stop stop-color="#D0E2FF" stop-opacity="0.92"/><stop offset="1" stop-color="#78A9FF" stop-opacity="0.66"/>
+  </linearGradient>
+  <linearGradient id="ceph-architecture-blue-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#78A9FF" stop-opacity="0.9"/><stop offset="1" stop-color="#0F62FE" stop-opacity="0.78"/>
+  </linearGradient>
+  
+  <linearGradient id="ceph-architecture-cyan-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#D9FBFB"/><stop offset="0.5" stop-color="#3DDBD9"/><stop offset="1" stop-color="#007D79"/>
+  </linearGradient>
+  <linearGradient id="ceph-architecture-cyan-left" x1="0" y1="0" x2="0.8" y2="1">
+    <stop stop-color="#D9FBFB" stop-opacity="0.92"/><stop offset="1" stop-color="#3DDBD9" stop-opacity="0.66"/>
+  </linearGradient>
+  <linearGradient id="ceph-architecture-cyan-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#3DDBD9" stop-opacity="0.9"/><stop offset="1" stop-color="#007D79" stop-opacity="0.78"/>
+  </linearGradient>
+  
+  <linearGradient id="ceph-architecture-purple-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#E8DAFF"/><stop offset="0.5" stop-color="#A56EFF"/><stop offset="1" stop-color="#6929C4"/>
+  </linearGradient>
+  <linearGradient id="ceph-architecture-purple-left" x1="0" y1="0" x2="0.8" y2="1">
+    <stop stop-color="#E8DAFF" stop-opacity="0.92"/><stop offset="1" stop-color="#A56EFF" stop-opacity="0.66"/>
+  </linearGradient>
+  <linearGradient id="ceph-architecture-purple-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#A56EFF" stop-opacity="0.9"/><stop offset="1" stop-color="#6929C4" stop-opacity="0.78"/>
+  </linearGradient>
+  
+  <linearGradient id="ceph-architecture-red-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFF1F1"/><stop offset="0.5" stop-color="#FA4D56"/><stop offset="1" stop-color="#A2191F"/>
+  </linearGradient>
+  <linearGradient id="ceph-architecture-red-left" x1="0" y1="0" x2="0.8" y2="1">
+    <stop stop-color="#FFF1F1" stop-opacity="0.92"/><stop offset="1" stop-color="#FA4D56" stop-opacity="0.66"/>
+  </linearGradient>
+  <linearGradient id="ceph-architecture-red-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FA4D56" stop-opacity="0.9"/><stop offset="1" stop-color="#A2191F" stop-opacity="0.78"/>
+  </linearGradient>
+  
+  <linearGradient id="ceph-architecture-orange-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFF2E8"/><stop offset="0.5" stop-color="#FF832B"/><stop offset="1" stop-color="#8A3800"/>
+  </linearGradient>
+  <linearGradient id="ceph-architecture-orange-left" x1="0" y1="0" x2="0.8" y2="1">
+    <stop stop-color="#FFF2E8" stop-opacity="0.92"/><stop offset="1" stop-color="#FF832B" stop-opacity="0.66"/>
+  </linearGradient>
+  <linearGradient id="ceph-architecture-orange-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FF832B" stop-opacity="0.9"/><stop offset="1" stop-color="#8A3800" stop-opacity="0.78"/>
+  </linearGradient>
+  
+  <linearGradient id="ceph-architecture-green-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#DEFBE6"/><stop offset="0.5" stop-color="#42BE65"/><stop offset="1" stop-color="#0E6027"/>
+  </linearGradient>
+  <linearGradient id="ceph-architecture-green-left" x1="0" y1="0" x2="0.8" y2="1">
+    <stop stop-color="#DEFBE6" stop-opacity="0.92"/><stop offset="1" stop-color="#42BE65" stop-opacity="0.66"/>
+  </linearGradient>
+  <linearGradient id="ceph-architecture-green-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#42BE65" stop-opacity="0.9"/><stop offset="1" stop-color="#0E6027" stop-opacity="0.78"/>
+  </linearGradient>
+  <linearGradient id="ceph-architecture-glass-blue" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFFFFF" stop-opacity="0.94"/><stop offset="0.5" stop-color="#D0E2FF" stop-opacity="0.76"/><stop offset="1" stop-color="#78A9FF" stop-opacity="0.46"/>
+  </linearGradient>
+  <linearGradient id="ceph-architecture-glass-cyan" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFFFFF" stop-opacity="0.94"/><stop offset="0.5" stop-color="#D9FBFB" stop-opacity="0.78"/><stop offset="1" stop-color="#3DDBD9" stop-opacity="0.46"/>
+  </linearGradient>
+  <linearGradient id="ceph-architecture-glass-red" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFFFFF" stop-opacity="0.94"/><stop offset="0.5" stop-color="#FFD7D9" stop-opacity="0.8"/><stop offset="1" stop-color="#FA4D56" stop-opacity="0.42"/>
+  </linearGradient>
+  <linearGradient id="ceph-architecture-network" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#0F62FE"/><stop offset="0.5" stop-color="#FA4D56"/><stop offset="1" stop-color="#08BDBA"/>
+  </linearGradient>
+  <radialGradient id="ceph-architecture-halo" cx="0" cy="0" r="1" gradientTransform="translate(248 136) rotate(90) scale(126 218)" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#D0E2FF" stop-opacity="0.38"/><stop offset="0.55" stop-color="#D9FBFB" stop-opacity="0.13"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="ceph-architecture-shadow" x="-35%" y="-70%" width="170%" height="240%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="5"/></filter>
+  <filter id="ceph-architecture-soft-shadow" x="-60%" y="-80%" width="220%" height="260%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="3" stdDeviation="2.5" flood-color="#525252" flood-opacity="0.18"/></filter>
+  <marker id="ceph-architecture-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0 0L8 4L0 8L2.2 4Z" fill="#0F62FE"/></marker>
+  <marker id="ceph-architecture-arrow-cyan" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0 0L8 4L0 8L2.2 4Z" fill="#08BDBA"/></marker>
+</defs>
+<rect width="496" height="268" fill="url(#ceph-architecture-halo)"/>
+
+<g opacity="1">
+  <polygon points="248,180.28 412.5,225 248,269.72 83.5,225" fill="#6F6F6F" opacity="0.15" filter="url(#ceph-architecture-shadow)"/>
+  <polygon points="73,207 248,259 248,271 73,219" fill="url(#ceph-architecture-surface-left)"/>
+  <polygon points="248,259 423,207 423,219 248,271" fill="url(#ceph-architecture-surface-right)"/>
+  <polygon points="248,155 423,207 248,259 73,207" fill="url(#ceph-architecture-surface-top)" stroke="#DDE4EC" stroke-width="0.7"/>
+</g>
+<g filter="url(#ceph-architecture-soft-shadow)">
+  <circle cx="248" cy="137" r="31" fill="url(#ceph-architecture-glass-red)" stroke="#FA4D56" stroke-width="1.2"/>
+  <circle cx="248" cy="137" r="23.56" fill="#FFFFFF" fill-opacity="0.76" stroke="#FA4D56" stroke-opacity="0.7" stroke-width="0.8"/>
+  <path d="M248 137L248 116.54" stroke="#FA4D56" stroke-width="1.71" stroke-linecap="round"/>
+  <path d="M248 137L265.72 126.77" stroke="#FA4D56" stroke-width="1.71" stroke-linecap="round"/>
+  <path d="M248 137L265.72 147.23" stroke="#FA4D56" stroke-width="1.71" stroke-linecap="round"/>
+  <path d="M248 137L248 157.46" stroke="#FA4D56" stroke-width="1.71" stroke-linecap="round"/>
+  <path d="M248 137L230.28 147.23" stroke="#FA4D56" stroke-width="1.71" stroke-linecap="round"/>
+  <path d="M248 137L230.28 126.77" stroke="#FA4D56" stroke-width="1.71" stroke-linecap="round"/>
+  <circle cx="248" cy="137" r="7.75" fill="#FA4D56"/>
+  <circle cx="248" cy="137" r="3.1" fill="#FFFFFF"/>
+  <circle cx="248" cy="116.54" r="3.56" fill="#FFFFFF" stroke="#FA4D56" stroke-width="1.71"/>
+  <circle cx="265.72" cy="126.77" r="3.56" fill="#FFFFFF" stroke="#FA4D56" stroke-width="1.71"/>
+  <circle cx="265.72" cy="147.23" r="3.56" fill="#FFFFFF" stroke="#FA4D56" stroke-width="1.71"/>
+  <circle cx="248" cy="157.46" r="3.56" fill="#FFFFFF" stroke="#FA4D56" stroke-width="1.71"/>
+  <circle cx="230.28" cy="147.23" r="3.56" fill="#FFFFFF" stroke="#FA4D56" stroke-width="1.71"/>
+  <circle cx="230.28" cy="126.77" r="3.56" fill="#FFFFFF" stroke="#FA4D56" stroke-width="1.71"/>
+</g>
+<path d="M248 169V191M218 137L153 158M278 137L343 158M230 117L186 79M266 117L310 79" stroke="url(#ceph-architecture-network)" stroke-width="1.25" stroke-dasharray="3 4"/>
+<g>
+<g opacity="0.9">
+  <polygon points="126.7,154 142,162.55 142,207.55 126.7,199" fill="url(#ceph-architecture-blue-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="142,162.55 157.3,154 157.3,199 142,207.55" fill="url(#ceph-architecture-blue-right)" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="0.55"/>
+  <polygon points="142,145.45 157.3,154 142,162.55 126.7,154" fill="url(#ceph-architecture-blue-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g>
+  <path d="M129.15 177.76L139.55 184.44M129.15 188.56L139.55 195.24M129.15 199.36L139.55 206.04" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.9" stroke-linecap="round"/>
+  <circle cx="131.6" cy="175.92" r="1.17" fill="#42BE65"/>
+</g>
+<g>
+<g opacity="0.9">
+  <polygon points="338.7,154 354,162.55 354,207.55 338.7,199" fill="url(#ceph-architecture-cyan-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="354,162.55 369.3,154 369.3,199 354,207.55" fill="url(#ceph-architecture-cyan-right)" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="0.55"/>
+  <polygon points="354,145.45 369.3,154 354,162.55 338.7,154" fill="url(#ceph-architecture-cyan-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g>
+  <path d="M341.15 177.76L351.55 184.44M341.15 188.56L351.55 195.24M341.15 199.36L351.55 206.04" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.9" stroke-linecap="round"/>
+  <circle cx="343.6" cy="175.92" r="1.17" fill="#42BE65"/>
+</g>
+<g opacity="0.86">
+  <polygon points="158,78 184,93 184,127 158,112" fill="url(#ceph-architecture-purple-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="184,93 210,78 210,112 184,127" fill="url(#ceph-architecture-purple-right)" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="0.55"/>
+  <polygon points="184,63 210,78 184,93 158,78" fill="url(#ceph-architecture-purple-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g>
+<g opacity="0.86">
+  <polygon points="286,78 312,93 312,127 286,112" fill="url(#ceph-architecture-red-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="312,93 338,78 338,112 312,127" fill="url(#ceph-architecture-red-right)" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="0.55"/>
+  <polygon points="312,63 338,78 312,93 286,78" fill="url(#ceph-architecture-red-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g>
+<g>
+<g opacity="0.94">
+  <path d="M175.72 201C175.72 205.62 204.28 205.62 204.28 201V216.12C204.28 220.74 175.72 220.74 175.72 216.12Z" fill="url(#ceph-architecture-blue-left)" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="0.7"/>
+  <ellipse cx="190" cy="201" rx="14.28" ry="4.62" fill="url(#ceph-architecture-blue-top)" stroke="#FFFFFF" stroke-opacity="0.72" stroke-width="0.8"/>
+  <ellipse cx="190" cy="216.12" rx="14.28" ry="4.62" fill="none" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.7"/>
+</g>
+  <circle cx="197.56" cy="211.08" r="1.68" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/>
+  <path d="M184.12 208.56H192.52" stroke="#FFFFFF" stroke-width="0.67" stroke-linecap="round"/>
+</g><g>
+<g opacity="0.94">
+  <path d="M214.72 221C214.72 225.62 243.28 225.62 243.28 221V236.12C243.28 240.74 214.72 240.74 214.72 236.12Z" fill="url(#ceph-architecture-cyan-left)" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="0.7"/>
+  <ellipse cx="229" cy="221" rx="14.28" ry="4.62" fill="url(#ceph-architecture-cyan-top)" stroke="#FFFFFF" stroke-opacity="0.72" stroke-width="0.8"/>
+  <ellipse cx="229" cy="236.12" rx="14.28" ry="4.62" fill="none" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.7"/>
+</g>
+  <circle cx="236.56" cy="231.08" r="1.68" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/>
+  <path d="M223.12 228.56H231.52" stroke="#FFFFFF" stroke-width="0.67" stroke-linecap="round"/>
+</g><g>
+<g opacity="0.94">
+  <path d="M254.72 221C254.72 225.62 283.28 225.62 283.28 221V236.12C283.28 240.74 254.72 240.74 254.72 236.12Z" fill="url(#ceph-architecture-purple-left)" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="0.7"/>
+  <ellipse cx="269" cy="221" rx="14.28" ry="4.62" fill="url(#ceph-architecture-purple-top)" stroke="#FFFFFF" stroke-opacity="0.72" stroke-width="0.8"/>
+  <ellipse cx="269" cy="236.12" rx="14.28" ry="4.62" fill="none" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.7"/>
+</g>
+  <circle cx="276.56" cy="231.08" r="1.68" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/>
+  <path d="M263.12 228.56H271.52" stroke="#FFFFFF" stroke-width="0.67" stroke-linecap="round"/>
+</g><g>
+<g opacity="0.94">
+  <path d="M293.72 201C293.72 205.62 322.28 205.62 322.28 201V216.12C322.28 220.74 293.72 220.74 293.72 216.12Z" fill="url(#ceph-architecture-red-left)" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="0.7"/>
+  <ellipse cx="308" cy="201" rx="14.28" ry="4.62" fill="url(#ceph-architecture-red-top)" stroke="#FFFFFF" stroke-opacity="0.72" stroke-width="0.8"/>
+  <ellipse cx="308" cy="216.12" rx="14.28" ry="4.62" fill="none" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="0.7"/>
+</g>
+  <circle cx="315.56" cy="211.08" r="1.68" fill="#42BE65" stroke="#FFFFFF" stroke-width="0.7"/>
+  <path d="M302.12 208.56H310.52" stroke="#FFFFFF" stroke-width="0.67" stroke-linecap="round"/>
+</g>
+<circle cx="153" cy="158" r="3.1" fill="#0F62FE" stroke="#FFFFFF" stroke-width="1.1"/><circle cx="343" cy="158" r="3.1" fill="#08BDBA" stroke="#FFFFFF" stroke-width="1.1"/><circle cx="186" cy="79" r="3.1" fill="#8A3FFC" stroke="#FFFFFF" stroke-width="1.1"/><circle cx="310" cy="79" r="3.1" fill="#FA4D56" stroke="#FFFFFF" stroke-width="1.1"/>
+<g opacity="0.78"><path d="M73 101H128L163 120M423 101H368L333 120" stroke="#A6C8FF" stroke-width="1"/><circle cx="73" cy="101" r="6" fill="url(#ceph-architecture-glass-blue)" stroke="#0F62FE"/><circle cx="423" cy="101" r="6" fill="url(#ceph-architecture-glass-cyan)" stroke="#08BDBA"/></g>
+
+</svg>

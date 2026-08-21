@@ -1,0 +1,216 @@
+<svg width="496" height="268" viewBox="0 0 496 268" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ceph-crush-title ceph-crush-description">
+<title id="ceph-crush-title">Ceph CRUSH placement hierarchy</title>
+<desc id="ceph-crush-description">The CRUSH algorithm deterministically maps placement groups across hosts, racks, and failure domains.</desc>
+<defs>
+  <linearGradient id="ceph-crush-surface-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFFFFF"/><stop offset="0.55" stop-color="#F4F7FB"/><stop offset="1" stop-color="#E0E7EF"/>
+  </linearGradient>
+  <linearGradient id="ceph-crush-surface-left" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#E8EDF3"/><stop offset="1" stop-color="#C6CFD9"/>
+  </linearGradient>
+  <linearGradient id="ceph-crush-surface-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#DDE4EC"/><stop offset="1" stop-color="#AEB8C4"/>
+  </linearGradient>
+  
+  <linearGradient id="ceph-crush-blue-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#D0E2FF"/><stop offset="0.5" stop-color="#78A9FF"/><stop offset="1" stop-color="#0F62FE"/>
+  </linearGradient>
+  <linearGradient id="ceph-crush-blue-left" x1="0" y1="0" x2="0.8" y2="1">
+    <stop stop-color="#D0E2FF" stop-opacity="0.92"/><stop offset="1" stop-color="#78A9FF" stop-opacity="0.66"/>
+  </linearGradient>
+  <linearGradient id="ceph-crush-blue-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#78A9FF" stop-opacity="0.9"/><stop offset="1" stop-color="#0F62FE" stop-opacity="0.78"/>
+  </linearGradient>
+  
+  <linearGradient id="ceph-crush-cyan-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#D9FBFB"/><stop offset="0.5" stop-color="#3DDBD9"/><stop offset="1" stop-color="#007D79"/>
+  </linearGradient>
+  <linearGradient id="ceph-crush-cyan-left" x1="0" y1="0" x2="0.8" y2="1">
+    <stop stop-color="#D9FBFB" stop-opacity="0.92"/><stop offset="1" stop-color="#3DDBD9" stop-opacity="0.66"/>
+  </linearGradient>
+  <linearGradient id="ceph-crush-cyan-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#3DDBD9" stop-opacity="0.9"/><stop offset="1" stop-color="#007D79" stop-opacity="0.78"/>
+  </linearGradient>
+  
+  <linearGradient id="ceph-crush-purple-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#E8DAFF"/><stop offset="0.5" stop-color="#A56EFF"/><stop offset="1" stop-color="#6929C4"/>
+  </linearGradient>
+  <linearGradient id="ceph-crush-purple-left" x1="0" y1="0" x2="0.8" y2="1">
+    <stop stop-color="#E8DAFF" stop-opacity="0.92"/><stop offset="1" stop-color="#A56EFF" stop-opacity="0.66"/>
+  </linearGradient>
+  <linearGradient id="ceph-crush-purple-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#A56EFF" stop-opacity="0.9"/><stop offset="1" stop-color="#6929C4" stop-opacity="0.78"/>
+  </linearGradient>
+  
+  <linearGradient id="ceph-crush-red-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFF1F1"/><stop offset="0.5" stop-color="#FA4D56"/><stop offset="1" stop-color="#A2191F"/>
+  </linearGradient>
+  <linearGradient id="ceph-crush-red-left" x1="0" y1="0" x2="0.8" y2="1">
+    <stop stop-color="#FFF1F1" stop-opacity="0.92"/><stop offset="1" stop-color="#FA4D56" stop-opacity="0.66"/>
+  </linearGradient>
+  <linearGradient id="ceph-crush-red-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FA4D56" stop-opacity="0.9"/><stop offset="1" stop-color="#A2191F" stop-opacity="0.78"/>
+  </linearGradient>
+  
+  <linearGradient id="ceph-crush-orange-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFF2E8"/><stop offset="0.5" stop-color="#FF832B"/><stop offset="1" stop-color="#8A3800"/>
+  </linearGradient>
+  <linearGradient id="ceph-crush-orange-left" x1="0" y1="0" x2="0.8" y2="1">
+    <stop stop-color="#FFF2E8" stop-opacity="0.92"/><stop offset="1" stop-color="#FF832B" stop-opacity="0.66"/>
+  </linearGradient>
+  <linearGradient id="ceph-crush-orange-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FF832B" stop-opacity="0.9"/><stop offset="1" stop-color="#8A3800" stop-opacity="0.78"/>
+  </linearGradient>
+  
+  <linearGradient id="ceph-crush-green-top" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#DEFBE6"/><stop offset="0.5" stop-color="#42BE65"/><stop offset="1" stop-color="#0E6027"/>
+  </linearGradient>
+  <linearGradient id="ceph-crush-green-left" x1="0" y1="0" x2="0.8" y2="1">
+    <stop stop-color="#DEFBE6" stop-opacity="0.92"/><stop offset="1" stop-color="#42BE65" stop-opacity="0.66"/>
+  </linearGradient>
+  <linearGradient id="ceph-crush-green-right" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#42BE65" stop-opacity="0.9"/><stop offset="1" stop-color="#0E6027" stop-opacity="0.78"/>
+  </linearGradient>
+  <linearGradient id="ceph-crush-glass-blue" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFFFFF" stop-opacity="0.94"/><stop offset="0.5" stop-color="#D0E2FF" stop-opacity="0.76"/><stop offset="1" stop-color="#78A9FF" stop-opacity="0.46"/>
+  </linearGradient>
+  <linearGradient id="ceph-crush-glass-cyan" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFFFFF" stop-opacity="0.94"/><stop offset="0.5" stop-color="#D9FBFB" stop-opacity="0.78"/><stop offset="1" stop-color="#3DDBD9" stop-opacity="0.46"/>
+  </linearGradient>
+  <linearGradient id="ceph-crush-glass-red" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFFFFF" stop-opacity="0.94"/><stop offset="0.5" stop-color="#FFD7D9" stop-opacity="0.8"/><stop offset="1" stop-color="#FA4D56" stop-opacity="0.42"/>
+  </linearGradient>
+  <linearGradient id="ceph-crush-network" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#0F62FE"/><stop offset="0.5" stop-color="#FA4D56"/><stop offset="1" stop-color="#08BDBA"/>
+  </linearGradient>
+  <radialGradient id="ceph-crush-halo" cx="0" cy="0" r="1" gradientTransform="translate(248 136) rotate(90) scale(126 218)" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#D0E2FF" stop-opacity="0.38"/><stop offset="0.55" stop-color="#D9FBFB" stop-opacity="0.13"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="ceph-crush-shadow" x="-35%" y="-70%" width="170%" height="240%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="5"/></filter>
+  <filter id="ceph-crush-soft-shadow" x="-60%" y="-80%" width="220%" height="260%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="3" stdDeviation="2.5" flood-color="#525252" flood-opacity="0.18"/></filter>
+  <marker id="ceph-crush-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0 0L8 4L0 8L2.2 4Z" fill="#0F62FE"/></marker>
+  <marker id="ceph-crush-arrow-cyan" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0 0L8 4L0 8L2.2 4Z" fill="#08BDBA"/></marker>
+</defs>
+<rect width="496" height="268" fill="url(#ceph-crush-halo)"/>
+
+<g transform="translate(248 55)"><g filter="url(#ceph-crush-soft-shadow)">
+  <circle cx="0" cy="0" r="23" fill="url(#ceph-crush-glass-red)" stroke="#FA4D56" stroke-width="1.2"/>
+  <circle cx="0" cy="0" r="17.48" fill="#FFFFFF" fill-opacity="0.76" stroke="#FA4D56" stroke-opacity="0.7" stroke-width="0.8"/>
+  <path d="M0 0L0 -15.18" stroke="#FA4D56" stroke-width="1.26" stroke-linecap="round"/>
+  <path d="M0 0L13.15 -7.59" stroke="#FA4D56" stroke-width="1.26" stroke-linecap="round"/>
+  <path d="M0 0L13.15 7.59" stroke="#FA4D56" stroke-width="1.26" stroke-linecap="round"/>
+  <path d="M0 0L0 15.18" stroke="#FA4D56" stroke-width="1.26" stroke-linecap="round"/>
+  <path d="M0 0L-13.15 7.59" stroke="#FA4D56" stroke-width="1.26" stroke-linecap="round"/>
+  <path d="M0 0L-13.15 -7.59" stroke="#FA4D56" stroke-width="1.26" stroke-linecap="round"/>
+  <circle cx="0" cy="0" r="5.75" fill="#FA4D56"/>
+  <circle cx="0" cy="0" r="2.3" fill="#FFFFFF"/>
+  <circle cx="0" cy="-15.18" r="2.65" fill="#FFFFFF" stroke="#FA4D56" stroke-width="1.26"/>
+  <circle cx="13.15" cy="-7.59" r="2.65" fill="#FFFFFF" stroke="#FA4D56" stroke-width="1.26"/>
+  <circle cx="13.15" cy="7.59" r="2.65" fill="#FFFFFF" stroke="#FA4D56" stroke-width="1.26"/>
+  <circle cx="0" cy="15.18" r="2.65" fill="#FFFFFF" stroke="#FA4D56" stroke-width="1.26"/>
+  <circle cx="-13.15" cy="7.59" r="2.65" fill="#FFFFFF" stroke="#FA4D56" stroke-width="1.26"/>
+  <circle cx="-13.15" cy="-7.59" r="2.65" fill="#FFFFFF" stroke="#FA4D56" stroke-width="1.26"/>
+</g></g>
+<path d="M248 79V99L126 132M248 99L248 132M248 99L370 132" stroke="url(#ceph-crush-network)" stroke-width="1.25" stroke-linejoin="round"/>
+<circle cx="126" cy="132" r="12" fill="url(#ceph-crush-blue-top)" stroke="#FFFFFF" stroke-width="1"/><circle cx="248" cy="132" r="12" fill="url(#ceph-crush-red-top)" stroke="#FFFFFF" stroke-width="1"/><circle cx="370" cy="132" r="12" fill="url(#ceph-crush-cyan-top)" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M126 144L98 154M126 144L126 165M126 144L154 154M248 144L220 154M248 144V165M248 144L276 154M370 144L342 154M370 144V165M370 144L398 154" stroke="#A6C8FF" stroke-width="1" stroke-dasharray="3 4"/>
+<g>
+<g opacity="1">
+  <polygon points="126,200.06 178.64,225 126,249.94 73.36,225" fill="#6F6F6F" opacity="0.15" filter="url(#ceph-crush-shadow)"/>
+  <polygon points="70,211 126,240 126,248 70,219" fill="url(#ceph-crush-surface-left)"/>
+  <polygon points="126,240 182,211 182,219 126,248" fill="url(#ceph-crush-surface-right)"/>
+  <polygon points="126,182 182,211 126,240 70,211" fill="url(#ceph-crush-surface-top)" stroke="#DDE4EC" stroke-width="0.7"/>
+</g>
+<g>
+<g opacity="0.9">
+  <polygon points="85.25,154 98,161.13 98,198.63 85.25,191.5" fill="url(#ceph-crush-blue-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="98,161.13 110.75,154 110.75,191.5 98,198.63" fill="url(#ceph-crush-blue-right)" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="0.55"/>
+  <polygon points="98,146.88 110.75,154 98,161.13 85.25,154" fill="url(#ceph-crush-blue-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g>
+  <path d="M87.29 173.8L95.96 179.37M87.29 182.8L95.96 188.37M87.29 191.8L95.96 197.37" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.75" stroke-linecap="round"/>
+  <circle cx="89.33" cy="172.26" r="0.98" fill="#42BE65"/>
+</g><g>
+<g opacity="0.9">
+  <polygon points="113.25,165 126,172.13 126,209.63 113.25,202.5" fill="url(#ceph-crush-blue-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="126,172.13 138.75,165 138.75,202.5 126,209.63" fill="url(#ceph-crush-blue-right)" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="0.55"/>
+  <polygon points="126,157.88 138.75,165 126,172.13 113.25,165" fill="url(#ceph-crush-blue-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g>
+  <path d="M115.29 184.8L123.96 190.37M115.29 193.8L123.96 199.37M115.29 202.8L123.96 208.37" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.75" stroke-linecap="round"/>
+  <circle cx="117.33" cy="183.26" r="0.98" fill="#42BE65"/>
+</g><g>
+<g opacity="0.9">
+  <polygon points="141.25,154 154,161.13 154,198.63 141.25,191.5" fill="url(#ceph-crush-blue-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="154,161.13 166.75,154 166.75,191.5 154,198.63" fill="url(#ceph-crush-blue-right)" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="0.55"/>
+  <polygon points="154,146.88 166.75,154 154,161.13 141.25,154" fill="url(#ceph-crush-blue-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g>
+  <path d="M143.29 173.8L151.96 179.37M143.29 182.8L151.96 188.37M143.29 191.8L151.96 197.37" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.75" stroke-linecap="round"/>
+  <circle cx="145.33" cy="172.26" r="0.98" fill="#42BE65"/>
+</g>
+</g><g>
+<g opacity="1">
+  <polygon points="248,200.06 300.64,225 248,249.94 195.36,225" fill="#6F6F6F" opacity="0.15" filter="url(#ceph-crush-shadow)"/>
+  <polygon points="192,211 248,240 248,248 192,219" fill="url(#ceph-crush-surface-left)"/>
+  <polygon points="248,240 304,211 304,219 248,248" fill="url(#ceph-crush-surface-right)"/>
+  <polygon points="248,182 304,211 248,240 192,211" fill="url(#ceph-crush-surface-top)" stroke="#DDE4EC" stroke-width="0.7"/>
+</g>
+<g>
+<g opacity="0.9">
+  <polygon points="207.25,154 220,161.13 220,198.63 207.25,191.5" fill="url(#ceph-crush-red-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="220,161.13 232.75,154 232.75,191.5 220,198.63" fill="url(#ceph-crush-red-right)" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="0.55"/>
+  <polygon points="220,146.88 232.75,154 220,161.13 207.25,154" fill="url(#ceph-crush-red-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g>
+  <path d="M209.29 173.8L217.96 179.37M209.29 182.8L217.96 188.37M209.29 191.8L217.96 197.37" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.75" stroke-linecap="round"/>
+  <circle cx="211.33" cy="172.26" r="0.98" fill="#42BE65"/>
+</g><g>
+<g opacity="0.9">
+  <polygon points="235.25,165 248,172.13 248,209.63 235.25,202.5" fill="url(#ceph-crush-red-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="248,172.13 260.75,165 260.75,202.5 248,209.63" fill="url(#ceph-crush-red-right)" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="0.55"/>
+  <polygon points="248,157.88 260.75,165 248,172.13 235.25,165" fill="url(#ceph-crush-red-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g>
+  <path d="M237.29 184.8L245.96 190.37M237.29 193.8L245.96 199.37M237.29 202.8L245.96 208.37" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.75" stroke-linecap="round"/>
+  <circle cx="239.33" cy="183.26" r="0.98" fill="#42BE65"/>
+</g><g>
+<g opacity="0.9">
+  <polygon points="263.25,154 276,161.13 276,198.63 263.25,191.5" fill="url(#ceph-crush-red-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="276,161.13 288.75,154 288.75,191.5 276,198.63" fill="url(#ceph-crush-red-right)" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="0.55"/>
+  <polygon points="276,146.88 288.75,154 276,161.13 263.25,154" fill="url(#ceph-crush-red-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g>
+  <path d="M265.29 173.8L273.96 179.37M265.29 182.8L273.96 188.37M265.29 191.8L273.96 197.37" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.75" stroke-linecap="round"/>
+  <circle cx="267.33" cy="172.26" r="0.98" fill="#42BE65"/>
+</g>
+</g><g>
+<g opacity="1">
+  <polygon points="370,200.06 422.64,225 370,249.94 317.36,225" fill="#6F6F6F" opacity="0.15" filter="url(#ceph-crush-shadow)"/>
+  <polygon points="314,211 370,240 370,248 314,219" fill="url(#ceph-crush-surface-left)"/>
+  <polygon points="370,240 426,211 426,219 370,248" fill="url(#ceph-crush-surface-right)"/>
+  <polygon points="370,182 426,211 370,240 314,211" fill="url(#ceph-crush-surface-top)" stroke="#DDE4EC" stroke-width="0.7"/>
+</g>
+<g>
+<g opacity="0.9">
+  <polygon points="329.25,154 342,161.13 342,198.63 329.25,191.5" fill="url(#ceph-crush-cyan-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="342,161.13 354.75,154 354.75,191.5 342,198.63" fill="url(#ceph-crush-cyan-right)" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="0.55"/>
+  <polygon points="342,146.88 354.75,154 342,161.13 329.25,154" fill="url(#ceph-crush-cyan-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g>
+  <path d="M331.29 173.8L339.96 179.37M331.29 182.8L339.96 188.37M331.29 191.8L339.96 197.37" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.75" stroke-linecap="round"/>
+  <circle cx="333.33" cy="172.26" r="0.98" fill="#42BE65"/>
+</g><g>
+<g opacity="0.9">
+  <polygon points="357.25,165 370,172.13 370,209.63 357.25,202.5" fill="url(#ceph-crush-cyan-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="370,172.13 382.75,165 382.75,202.5 370,209.63" fill="url(#ceph-crush-cyan-right)" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="0.55"/>
+  <polygon points="370,157.88 382.75,165 370,172.13 357.25,165" fill="url(#ceph-crush-cyan-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g>
+  <path d="M359.29 184.8L367.96 190.37M359.29 193.8L367.96 199.37M359.29 202.8L367.96 208.37" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.75" stroke-linecap="round"/>
+  <circle cx="361.33" cy="183.26" r="0.98" fill="#42BE65"/>
+</g><g>
+<g opacity="0.9">
+  <polygon points="385.25,154 398,161.13 398,198.63 385.25,191.5" fill="url(#ceph-crush-cyan-left)" stroke="#FFFFFF" stroke-opacity="0.44" stroke-width="0.55"/>
+  <polygon points="398,161.13 410.75,154 410.75,191.5 398,198.63" fill="url(#ceph-crush-cyan-right)" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="0.55"/>
+  <polygon points="398,146.88 410.75,154 398,161.13 385.25,154" fill="url(#ceph-crush-cyan-top)" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="0.65"/>
+</g>
+  <path d="M387.29 173.8L395.96 179.37M387.29 182.8L395.96 188.37M387.29 191.8L395.96 197.37" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="0.75" stroke-linecap="round"/>
+  <circle cx="389.33" cy="172.26" r="0.98" fill="#42BE65"/>
+</g>
+</g>
+<path d="M58 239H438" stroke="#A6C8FF" stroke-width="0.8"/><circle cx="126" cy="239" r="3" fill="#0F62FE"/><circle cx="248" cy="239" r="3" fill="#FA4D56"/><circle cx="370" cy="239" r="3" fill="#08BDBA"/>
+
+</svg>

@@ -389,6 +389,136 @@
     ]
   },
   {
+    "name": "Ceph Architecture Overview Header",
+    "shortname": "ceph-architecture-overview-header",
+    "url": "",
+    "collection": "simple",
+    "source": "custom",
+    "files": [
+      {
+        "filename": "ceph-architecture-overview-header.svg",
+        "variant": "default"
+      }
+    ]
+  },
+  {
+    "name": "Ceph Crush Placement Header",
+    "shortname": "ceph-crush-placement-header",
+    "url": "",
+    "collection": "simple",
+    "source": "custom",
+    "files": [
+      {
+        "filename": "ceph-crush-placement-header.svg",
+        "variant": "default"
+      }
+    ]
+  },
+  {
+    "name": "Ceph Erasure Coding Header",
+    "shortname": "ceph-erasure-coding-header",
+    "url": "",
+    "collection": "simple",
+    "source": "custom",
+    "files": [
+      {
+        "filename": "ceph-erasure-coding-header.svg",
+        "variant": "default"
+      }
+    ]
+  },
+  {
+    "name": "Ceph Health Rebalancing Header",
+    "shortname": "ceph-health-rebalancing-header",
+    "url": "",
+    "collection": "simple",
+    "source": "custom",
+    "files": [
+      {
+        "filename": "ceph-health-rebalancing-header.svg",
+        "variant": "default"
+      }
+    ]
+  },
+  {
+    "name": "Ceph Multisite Replication Header",
+    "shortname": "ceph-multisite-replication-header",
+    "url": "",
+    "collection": "simple",
+    "source": "custom",
+    "files": [
+      {
+        "filename": "ceph-multisite-replication-header.svg",
+        "variant": "default"
+      }
+    ]
+  },
+  {
+    "name": "Ceph Rados Distribution Header",
+    "shortname": "ceph-rados-distribution-header",
+    "url": "",
+    "collection": "simple",
+    "source": "custom",
+    "files": [
+      {
+        "filename": "ceph-rados-distribution-header.svg",
+        "variant": "default"
+      }
+    ]
+  },
+  {
+    "name": "Ceph Rbd Block Storage Header",
+    "shortname": "ceph-rbd-block-storage-header",
+    "url": "",
+    "collection": "simple",
+    "source": "custom",
+    "files": [
+      {
+        "filename": "ceph-rbd-block-storage-header.svg",
+        "variant": "default"
+      }
+    ]
+  },
+  {
+    "name": "Ceph Replication Self Healing Header",
+    "shortname": "ceph-replication-self-healing-header",
+    "url": "",
+    "collection": "simple",
+    "source": "custom",
+    "files": [
+      {
+        "filename": "ceph-replication-self-healing-header.svg",
+        "variant": "default"
+      }
+    ]
+  },
+  {
+    "name": "Ceph Rgw Object Gateway Header",
+    "shortname": "ceph-rgw-object-gateway-header",
+    "url": "",
+    "collection": "simple",
+    "source": "custom",
+    "files": [
+      {
+        "filename": "ceph-rgw-object-gateway-header.svg",
+        "variant": "default"
+      }
+    ]
+  },
+  {
+    "name": "Cephfs Shared Filesystem Header",
+    "shortname": "cephfs-shared-filesystem-header",
+    "url": "",
+    "collection": "simple",
+    "source": "custom",
+    "files": [
+      {
+        "filename": "cephfs-shared-filesystem-header.svg",
+        "variant": "default"
+      }
+    ]
+  },
+  {
     "name": "Certification",
     "shortname": "certification-oqiz",
     "url": "https://undraw.co/search/certification_oqiz",
